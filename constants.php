@@ -46,6 +46,14 @@ if (!defined('___INC___')) {
     define('___INC___', ___ABS_PATH___ . 'includes/');
 }
 
+if (!defined('___PAGES___')) {
+    define('___PAGES___', ___ABS_PATH___ . 'pages/');
+}
+
+if (!defined('___COMPONENTS___')) {
+    define('___COMPONENTS___', ___ABS_PATH___ . 'components/');
+}
+
 if (!defined('DATA')) {
     define('DATA', ___INC___ . 'data.json');
 }

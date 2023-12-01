@@ -75,9 +75,9 @@ function loadTitleAndFavicon($title = '', $favicon = '')
     } else {
         // Customize the page title based on the provided parameters
         if ($title != '') {
-            $final_title = $title . ' — ' . data('project');
+            $final_title = $title . ' — ' . data('project') . " - " . data('tagline');
         } else {
-            $final_title = data('project');
+            $final_title = data('project') . " - " . data('tagline');
         }
 
         // Customize the favicon (site icon) URL based on the provided parameters

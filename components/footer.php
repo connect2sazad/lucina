@@ -56,5 +56,5 @@
     </div>
 </div>
 <?php
-    include_once ___INC___."copyright.php";
+    include_once ___COMPONENTS___."copyright.php";
 ?>

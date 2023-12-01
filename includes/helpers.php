@@ -394,3 +394,14 @@ function data($variable){
     }
     return $data->$variable;
 }
+
+function page($page){
+    if(substr($page, -1) == '/'){
+        $page = str_replace('/', '', $page);
+    }
+    if(file_exists(___PAGES___.$page.".php")){
+        include_once ___PAGES___.$page.".php";
+    } else {
+        echo "<h1>404</h1>";
+    }
+}
