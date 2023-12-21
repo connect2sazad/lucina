@@ -5,6 +5,12 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @font-face {
+  font-family: 'Libre Baskerville';
+  src: url('../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf');
+ }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -34,6 +40,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Poppins", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --real-font: 'Libre Baskerville';
 }
 
 *,
@@ -55,7 +62,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--real-font);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

@@ -32,9 +32,7 @@ if($p == ''){
 
 <body>
     
-    <?php
-        include_once ___COMPONENTS___."header.php";
-    ?>
+    <?=component('header', $p)?>
 
 
     <?php
@@ -45,11 +43,7 @@ if($p == ''){
 
 
     <!-- Footer Start -->
-    <?php
-
-        include_once ___COMPONENTS___."footer.php"
-    
-    ?>
+    <?=component('footer')?>
     <!-- Footer End -->
 
 

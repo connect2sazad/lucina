@@ -1,335 +1,131 @@
-<?php
-        include_once ___COMPONENTS___."hero-slider.php";
-    ?>
+<?= component('hero-slider') ?>
+
+<h1 class="text-center p-5 addon-h1">
+    <p>Votre nouveau centre Santé & Bien-être ouvre ses portes à Rueil Malmaison.</p>
+</h1>
 
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100" <?=img('about.jpg')?> alt="">
-                </div>
-                <div class="col-lg-6">
-                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">About Us</h6>
-                    <h1 class="mb-4">Your Best Spa, Beauty & Skin Care Center</h1>
-                    <p class="pl-4 border-left border-primary">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd erat duo eos et erat</p>
-                    <div class="row pt-3">
-                        <div class="col-6">
-                            <div class="bg-light text-center p-4">
-                                <h3 class="display-4 text-primary" data-toggle="counter-up">99</h3>
-                                <h6 class="text-uppercase">Spa Specialist</h6>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="bg-light text-center p-4">
-                                <h3 class="display-4 text-primary" data-toggle="counter-up">999</h3>
-                                <h6 class="text-uppercase">Happy Clients</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pb-5 pb-lg-0">
+                <img class="img-fluid w-100" <?= img('about.webp') ?> alt="">
             </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    <div class="container-fluid px-0 py-5 my-5">
-        <div class="row mx-0 justify-content-center text-center">
             <div class="col-lg-6">
-                <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Our Service</h6>
-                <h1>LA CARTE DES SOINS </h1>
+                <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6>
+                <h1 class="mb-4">LUCINA : Votre Centre De Photobiomodulation </h1>
+                <p class="pl-4 border-left border-primary text-justify">
+                    L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison. Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
+                <br><br>
+                    Pratiquée depuis plus de 20 ans dans des domaines spécialisés, particulièrement développée aux Etats Unis et dans les pays nordiques, son efficacité et son innocuité ont été validées par de nombreuses études scientifiques et cliniques. Son développement en France reste plus récent.
+                    <a href="<?= the_site_url() ?>about">En savoir plus...</a>
+                </p>
+                <!-- <div class="row pt-3 d-flex ">
+                    <div class="col-md-6">
+                        <div class="bg-light text-center p-4 h-100 addon-flex-center">
+                            <h3 class="display-4 text-primary" data-toggle="counter-up">30</h3>
+                            <h6 class="text-uppercase">ANS D'ÉTUDES</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-light text-center p-4 h-100 addon-flex-center">
+                            <h3 class="display-4 text-primary" data-toggle="counter-up">5000</h3>
+                            <h6 class="text-uppercase">ÉTUDES SCIENTIFIQUES PUBLIÉES</h6>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
-        <?php
-            include_once ___COMPONENTS___."services-carousel.php";
-        ?>
-        <div class="row justify-content-center bg-appointment mx-0">
-            <div class="col-lg-6 py-5">
-                <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">
-                    <h1 class="text-white text-center mb-4">Make Appointment</h1>
-                    <form>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent p-4" placeholder="Your Name" required="required" />
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent p-4" placeholder="Your Email" required="required" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Select Date" data-target="#date" data-toggle="datetimepicker" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Select Time" data-target="#time" data-toggle="datetimepicker" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <select class="custom-select bg-transparent px-4" style="height: 47px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 1</option>
-                                        <option value="3">Service 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <button class="btn btn-primary btn-block" type="submit" style="height: 47px;">Make Appointment</button>
-                            </div>
-                        </div>
-                    </form>
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Service Start -->
+<div class="container-fluid px-0 py-5 my-5">
+    <div class="row mx-0 justify-content-center text-center">
+        <div class="col-lg-6">
+            <h1>LA CARTE DES SOINS </h1>
+            <p>Une technique exploitant les effets de la lumière</p>
+        </div>
+    </div>
+    <?= component('services-carousel') ?>
+</div>
+<!-- Service End -->
+
+
+<!-- Open Hours Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-6" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" <?= img('opening.webp') ?> style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 pt-5 pb-lg-5">
+                <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
+                    <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Heures d'ouverture</h6>
+                    <h1 class="mb-4 text-break">Votre Centre De Photobiomodulation</h1>
+                    <p class="text-justify">Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.</p>
+                    <ul class="list-inline">
+                        <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Lundi - Vendredi : 9:00 AM - 7:00 PM</li>
+                        <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Samedi : 9:00 AM - 6:00 PM</li>
+                        <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Dimanche : Fermé</li>
+                    </ul>
+                    <!-- <a href="" class="btn btn-primary mt-2">Book Now</a> -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+</div>
+<!-- Open Hours End -->
 
 
-    <!-- Open Hours Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-6" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" <?=img('opening.jpg')?> style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 pt-5 pb-lg-5">
-                    <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
-                        <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Open Hours</h6>
-                        <h1 class="mb-4">Best Relax And Spa Zone</h1>
-                        <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
-                        <ul class="list-inline">
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Mon – Fri : 9:00 AM - 7:00 PM</li>
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Saturday : 9:00 AM - 6:00 PM</li>
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Sunday : Closed</li>
-                        </ul>
-                        <a href="" class="btn btn-primary mt-2">Book Now</a>
-                    </div>
-                </div>
+<!-- A TRIPLE EXPERTISE start -->
+<?= component('triple-expertise') ?>
+<!-- A TRIPLE EXPERTISE end -->
+
+<div class="container-fluid">
+    <div class="container pb-5">
+            <div class="card-body">
+                <h5 class="card-title mb-3">UN MATÉRIEL CERTIFIÉ ET UN PRATICIEN QUALIFIÉ À VOTRE ÉCOUTE</h5>
+                <p class="card-text">Tous nos équipements sont fabriqués en France et ont les certifications requises. Un gage d'efficacité et de sécurité.</p>
+                <p class="card-text">Votre praticien est également un expert qualifié, formé pour la pratique de la Photobiomodulation et sur les équipements utilisés.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
+    </div>
+</div>
+
+
+<!-- Pricing Start -->
+<?= component('pricing') ?>
+<!-- Pricing End -->
+
+
+<!-- <div class="container mt-5 pt-5 pb-5">
+    <div class="media mt-5 d-flex img-text">
+        <img class="mr-3" < ?=img('PHOTOBIOMODULATIONI.webp')?>>
+        <div class="media-body ml-5">
+            <h5 class="mt-0">UN PEU D'HISTOIRE : DE L'ANTIQUITE A LA RECHERCHE SPATIALE</h5>
+            <p class="text-justify">Les effets bénéfiques de la lumière sont connus depuis l'antiquité par de nombreuses civilisations (Egypte, Grèce, Méso-Amérique, Chine, Inde). Son utilisation se développe surtout au milieu du XIXème siècle avec l'épidémie de tuberculose et le développement des sanatoriums, validant le traitement par la cure d'air, de lumière et de soleil, seul remède connu avant l'avènement des antibiotiques.</p>
+            <p class="text-justify">Les progrès scientifiques et techniques réalisés dans le courant du XIX siècle permettront de poser les bases de la photobiomodulation (citons notamment le Dr Finsen prix Nobel de médecine en 1903 pour son étude sur l'utilisation de radiations lumineuses dans le traitement de certaines maladies ; Albert Einstein prix Nobel de physique en 1921 pour sa découverte de la loi de l'effet photoélectrique; <a href="<?=the_site_url()?>about/history">En savoir plus...</a></p>
         </div>
     </div>
-    <!-- Open Hours End -->
+</div> -->
+
+<!-- Team Start -->
+<?php //component('team')
+?>
+<!-- Team End -->
 
 
-    <!-- Pricing Start -->
-    <div class="container-fluid bg-pricing" style="margin: 90px 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" <?=img('pricing.jpg')?>  style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-7 pt-5 pb-lg-5">
-                    <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
-                        <div class="owl-carousel pricing-carousel">
-                            <div class="bg-white">
-                                <div class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
-                                    <h1 class="display-4 mb-0">
-                                        <small class="align-top text-muted font-weight-medium" style="font-size: 22px; line-height: 45px;">$</small>49<small class="align-bottom text-muted font-weight-medium" style="font-size: 16px; line-height: 40px;">/Mo</small>
-                                    </h1>
-                                    <h5 class="text-primary text-uppercase m-0">Basic Plan</h5>
-                                </div>
-                                <div class="p-4">
-                                    <p><i class="fa fa-check text-success mr-2"></i>Full Body Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Deep Tissue Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Hot Stone Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Tissue Body Polish</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Foot & Nail Care</p>
-                                    <a href="" class="btn btn-primary my-2">Order Now</a>
-                                </div>
-                            </div>
-                            <div class="bg-white">
-                                <div class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
-                                    <h1 class="display-4 mb-0">
-                                        <small class="align-top text-muted font-weight-medium" style="font-size: 22px; line-height: 45px;">$</small>99<small class="align-bottom text-muted font-weight-medium" style="font-size: 16px; line-height: 40px;">/Mo</small>
-                                    </h1>
-                                    <h5 class="text-primary text-uppercase m-0">Family Plan</h5>
-                                </div>
-                                <div class="p-4">
-                                    <p><i class="fa fa-check text-success mr-2"></i>Full Body Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Deep Tissue Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Hot Stone Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Tissue Body Polish</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Foot & Nail Care</p>
-                                    <a href="" class="btn btn-primary my-2">Order Now</a>
-                                </div>
-                            </div>
-                            <div class="bg-white">
-                                <div class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
-                                    <h1 class="display-4 mb-0">
-                                        <small class="align-top text-muted font-weight-medium" style="font-size: 22px; line-height: 45px;">$</small>149<small class="align-bottom text-muted font-weight-medium" style="font-size: 16px; line-height: 40px;">/Mo</small>
-                                    </h1>
-                                    <h5 class="text-primary text-uppercase m-0">VIP Plan</h5>
-                                </div>
-                                <div class="p-4">
-                                    <p><i class="fa fa-check text-success mr-2"></i>Full Body Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Deep Tissue Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Hot Stone Massage</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Tissue Body Polish</p>
-                                    <p><i class="fa fa-check text-success mr-2"></i>Foot & Nail Care</p>
-                                    <a href="" class="btn btn-primary my-2">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pricing End -->
+<!-- Testimonial Start -->
+<?php //component('testimonials')
+?>
+<!-- Testimonial End -->
 
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-6">
-                    <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Spa Specialist</h6>
-                    <h1 class="mb-5">Spa & Beauty Specialist</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" <?=img('team-1.jpg')?> alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white text-uppercase">Olivia Mia</h5>
-                                <p class="m-0">Spa & Beauty Expert</p>
-                            </div>
-                            <div class="team-social bg-dark text-center">
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" <?=img('team-2.jpg')?> alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white text-uppercase">Cory Brown</h5>
-                                <p class="m-0">Spa & Beauty Expert</p>
-                            </div>
-                            <div class="team-social bg-dark text-center">
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" <?=img('team-3.jpg')?> alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white text-uppercase">Elizabeth Ross</h5>
-                                <p class="m-0">Spa & Beauty Expert</p>
-                            </div>
-                            <div class="team-social bg-dark text-center">
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" <?=img('team-4.jpg')?> alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white text-uppercase">Kelly Walke</h5>
-                                <p class="m-0">Spa & Beauty Expert</p>
-                            </div>
-                            <div class="team-social bg-dark text-center">
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100" <?=img('testimonial.jpg')?> alt="">
-                </div>
-                <div class="col-lg-6">
-                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Testimonial</h6>
-                    <h1 class="mb-4">What Our Clients Say!</h1>
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="position-relative">
-                            <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
-                            <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid rounded-circle" <?=img('testimonial-1.jpg')?> style="width: 60px; height: 60px;" alt="">
-                                <div class="ml-3">
-                                    <h6 class="text-uppercase">Client Name</h6>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                            <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
-                        </div>
-                        <div class="position-relative">
-                            <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
-                            <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid rounded-circle" <?=img('testimonial-2.jpg')?> style="width: 60px; height: 60px;" alt="">
-                                <div class="ml-3">
-                                    <h6 class="text-uppercase">Client Name</h6>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                            <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
-                        </div>
-                        <div class="position-relative">
-                            <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
-                            <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid rounded-circle" <?=img('testimonial-3.jpg')?> style="width: 60px; height: 60px;" alt="">
-                                <div class="ml-3">
-                                    <h6 class="text-uppercase">Client Name</h6>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                            <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
+<!-- Contact Start -->
+<?php component('contact')?>
+<!-- Contact End -->

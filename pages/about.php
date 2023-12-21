@@ -1,114 +1,71 @@
 <!-- About Start -->
 <div class="container-fluid py-5">
     <div class="container py-5">
+        <h1 class="mb-5 pb-5">LUCINA : Votre Centre De Photobiomodulation </h1>
+        <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
         <div class="row align-items-center">
             <div class="col-lg-6 pb-5 pb-lg-0">
-                <img class="img-fluid w-100" <?= img('about.jpg') ?> alt="">
+                <img class="img-fluid w-100" <?= img('about.webp') ?> alt="">
             </div>
             <div class="col-lg-6">
-                <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">About Us</h6>
-                <h1 class="mb-4">Your Best Spa, Beauty & Skin Care Center</h1>
-                <p class="pl-4 border-left border-primary">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd erat duo eos et erat</p>
-                <div class="row pt-3">
-                    <div class="col-6">
-                        <div class="bg-light text-center p-4">
-                            <h3 class="display-4 text-primary" data-toggle="counter-up">99</h3>
-                            <h6 class="text-uppercase">Spa Specialist</h6>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="bg-light text-center p-4">
-                            <h3 class="display-4 text-primary" data-toggle="counter-up">999</h3>
-                            <h6 class="text-uppercase">Happy Clients</h6>
-                        </div>
-                    </div>
-                </div>
+                <p class="pl-4 border-left border-primary text-justify">
+                    L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison. Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
+                    <br><br>
+                    Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
+                    <br><br>
+                    Pratiquée depuis plus de 20 ans dans des domaines spécialisés, particulièrement développée aux Etats Unis et dans les pays nordiques, son efficacité et son innocuité ont été validées par de nombreuses études scientifiques et cliniques. Son développement en France reste plus récent.
+                </p>
             </div>
         </div>
     </div>
 </div>
+
+<h3 class="text-center p-5 addon-h3">
+    <p>Notre vocation : vous apporter notre expertise pour accompagner votre bien être au quotidien, et les bienfaits d'une technique innovante, jusqu'ici peu accessible au grand public.</p>
+</h3>
 <!-- About End -->
+
+<!-- A TRIPLE EXPERTISE start -->
+<?= component('triple-expertise') ?>
+<!-- A TRIPLE EXPERTISE end -->
 
 
 <!-- Team Start -->
+<?php //component('team') 
+?>
+<!-- Team End -->
+
+<div class="container-fluid">
+    <div class="container py-5">
+            <div class="card-body">
+                <h5 class="card-title mb-3">UN MATÉRIEL CERTIFIÉ ET UN PRATICIEN QUALIFIÉ À VOTRE ÉCOUTE</h5>
+                <p class="card-text">Tous nos équipements sont fabriqués en France et ont les certifications requises. Un gage d'efficacité et de sécurité.</p>
+                <p class="card-text">Votre praticien est également un expert qualifié, formé pour la pratique de la Photobiomodulation et sur les équipements utilisés.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+    </div>
+</div>
+
+
+<!-- About Photobiomodulation start -->
 <div class="container-fluid py-5">
-    <div class="container pt-5">
-        <div class="row justify-content-center text-center">
+    <div class="container py-5">
+        <h1 class="mb-5 pb-5">LUCINA : Votre Centre De Photobiomodulation </h1>
+        <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
+        <div class="row align-items-center">
+            <div class="col-lg-6 pb-5 pb-lg-0">
+                <img class="img-fluid w-100" <?= img('PHOTOBIOMODULATION.webp') ?> alt="">
+            </div>
             <div class="col-lg-6">
-                <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Spa Specialist</h6>
-                <h1 class="mb-5">Spa & Beauty Specialist</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="team position-relative overflow-hidden mb-5">
-                    <img class="img-fluid" <?= img('team-1.jpg') ?> alt="">
-                    <div class="position-relative text-center">
-                        <div class="team-text bg-primary text-white">
-                            <h5 class="text-white text-uppercase">Olivia Mia</h5>
-                            <p class="m-0">Spa & Beauty Expert</p>
-                        </div>
-                        <div class="team-social bg-dark text-center">
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team position-relative overflow-hidden mb-5">
-                    <img class="img-fluid" <?= img('team-2.jpg') ?> alt="">
-                    <div class="position-relative text-center">
-                        <div class="team-text bg-primary text-white">
-                            <h5 class="text-white text-uppercase">Cory Brown</h5>
-                            <p class="m-0">Spa & Beauty Expert</p>
-                        </div>
-                        <div class="team-social bg-dark text-center">
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team position-relative overflow-hidden mb-5">
-                    <img class="img-fluid" <?= img('team-3.jpg') ?> alt="">
-                    <div class="position-relative text-center">
-                        <div class="team-text bg-primary text-white">
-                            <h5 class="text-white text-uppercase">Elizabeth Ross</h5>
-                            <p class="m-0">Spa & Beauty Expert</p>
-                        </div>
-                        <div class="team-social bg-dark text-center">
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team position-relative overflow-hidden mb-5">
-                    <img class="img-fluid" <?= img('team-4.jpg') ?> alt="">
-                    <div class="position-relative text-center">
-                        <div class="team-text bg-primary text-white">
-                            <h5 class="text-white text-uppercase">Kelly Walke</h5>
-                            <p class="m-0">Spa & Beauty Expert</p>
-                        </div>
-                        <div class="team-social bg-dark text-center">
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
+                <p class="pl-4 border-left border-primary text-justify">
+                    La Photobiomodulation (PBM) est une technique de soin qui utilise l'énergie et les propriétés naturelles de la lumière, connue pour ses effets régénérants et ressourçants.
+                    <br><br>
+                    La lumière agit par photosynthèse sur le corps grâce à des cellules dites chromophores qui captent la lumière et permettent son utilisation selon les besoins de notre organisme.
+                    <br><br>
+                    La photobiomodulation reproduit cette photosynthèse naturelle en utilisant les différentes longueurs d'onde de la lumière selon l'effet recherché. Chaque longueur d'onde a un effet spécifique sur notre corps, et chaque fonction de notre organisme utilise la lumière ; ceci explique que les indications de la PBM soient aussi nombreuses. <a href="<?=the_site_url()?>about/history">En savoir plus...</a>
+                </p>
             </div>
         </div>
     </div>
 </div>
-<!-- Team End -->
+<!-- About Photobiomodulation end -->

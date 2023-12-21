@@ -9,8 +9,8 @@ RewriteRule "(.*)" "index.php/$1" [QSA]
 RewriteCond %{REQUEST_METHOD} !^(GET|HEAD|POST|PROPFIND|OPTIONS|PUT)$ [NC]
 RewriteRule .* - [F,NS,L]
 
-ErrorDocument 404 https://lucina.com/404
-#ErrorDocument 404 http://lucina.com/404
+ErrorDocument 404 https://institutlucina.com/404
+#ErrorDocument 404 http://institutlucina.com/404
 
 # ----------------------------------------------------------------------
 # UTF-8 encoding

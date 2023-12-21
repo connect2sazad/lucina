@@ -219,13 +219,17 @@ function current_url()
 }
 
 function the_site_url(){
-    $url = BASEURL."/".ROOTDIR."/";
+    if(ROOTDIR == false){
+        $url = BASEURL."/";
+    } else {
+        $url = BASEURL."/".ROOTDIR."/";
+    }
     return $url;
 }
 
 function assets($loc = '')
 {
-    $url = BASEURL."/".ROOTDIR."/"."assets/".$loc;
+    $url = the_site_url()."assets/".$loc;
     return $url;
 }
 
@@ -404,4 +408,27 @@ function page($page){
     } else {
         echo "<h1>404</h1>";
     }
+}
+
+function component($component_name, $p=null){
+    include_once ___COMPONENTS___.$component_name.".php";
+}
+
+function services_menu(){
+    return array(
+        "Bien être",
+        "Santé",
+        "Esthétique",
+        "Le coin du sportif"
+    );
+}
+
+function the_menus(){
+    return array(
+        "Maison" => "",
+        "À propos" => "about",
+        "La Carte" => "services",
+        "Séance" => "sessions",
+        "Contact" => "contact"
+    );
 }
