@@ -71,7 +71,7 @@
                     if($p == $data_link){
                         echo '<a class="nav-item nav-link active font-15px" href="' . the_site_url() . $link . '">' . $item . '</a>';
                     } else {
-                        echo '<a class="nav-item nav-link" href="' . the_site_url() . $link . '">' . $item . '</a>';
+                        echo '<a class="nav-item nav-link font-15px" href="' . the_site_url() . $link . '">' . $item . '</a>';
                     }
                 }
 

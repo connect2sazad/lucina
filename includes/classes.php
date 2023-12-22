@@ -55,11 +55,11 @@ class ServicesCard
             $html .= '<div class="card-header">';
             $html .= $serviceItem->title;
             $html .= '</div>';
-            $html .= '<div class="card-body">';
-            $html .= '<h5 class="card-title"> </h5>';
-            $html .= '<p class="card-text">' . $serviceItem->desc . '</p>';
+            // $html .= '<div class="card-body">';
+            // $html .= '<h5 class="card-title"> </h5>';
+            // $html .= '<p class="card-text">' . $serviceItem->desc . '</p>';
             // $html .= '<a href="' . $serviceItem->link . '" class="btn btn-primary">Details</a>';
-            $html .= '</div>';
+            // $html .= '</div>';
             $html .= '</div>';
             $html .= '</div>';
         }

@@ -1,6 +1,6 @@
 <div class="container-fluid py-5">
     <div class="container py-5">
-        <h1 class="mb-3">UNE TRIPLE EXPERTISE</h1>
+        <h5 class="mb-3">UNE TRIPLE EXPERTISE</h1>
         <div class="row">
             <div class="card col-md-4 col-sm-12 col-xs-12">
                 <div class="card-body">
@@ -27,5 +27,15 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container pb-5">
+            <div class="card-body">
+                <h5 class="card-title mb-3">UN MATÉRIEL CERTIFIÉ ET UN PRATICIEN QUALIFIÉ À VOTRE ÉCOUTE</h5>
+                <p class="card-text">Tous nos équipements sont fabriqués en France et ont les certifications requises. Un gage d'efficacité et de sécurité.</p>
+                <p class="card-text">Votre praticien est également un expert qualifié, formé pour la pratique de la Photobiomodulation et sur les équipements utilisés.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
     </div>
 </div>

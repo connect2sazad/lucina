@@ -51,8 +51,35 @@
     background-color: black;
 }
 
+.font-15px {
+    font-size: 15px !important;
+}
+
+.sticky {
+    flex-direction: row !important;
+}
+
+.sticky .navbar-brand h1,
+.sticky .navbar-brand span {
+    display: none;
+}
+
+.sticky .font-15px {
+    font-size: 13px !important;
+}
+
+#accordian-component [data-toggle="collapse"]{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 425px) {
-    .text-justify{
-        text-align: left!important;
+
+    .sticky .navbar-brand h1,
+    .sticky .navbar-brand span {
+        display: flex;
+    }
+
+    .text-justify {
+        text-align: left !important;
     }
 }

@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 mb-5">
-                        <h5 class="text-white text-uppercase mb-4">BULLETIN</h5>
+                        <!-- <h5 class="text-white text-uppercase mb-4">BULLETIN</h5>
                         <div class="w-100">
                             <div class="input-group">
                                 <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Votre adresse e-mail">
@@ -52,7 +52,7 @@
                                     <button class="btn btn-primary px-4">S'inscrire</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

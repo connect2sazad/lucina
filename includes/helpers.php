@@ -428,7 +428,7 @@ function the_menus(){
         "Votre Centre De Photobiomodulationi" => "",
         "Qu'est-ce-que C'est" => "about",
         "La Carte Des Soins" => "services",
-        "Le Déroulement D’une Séance" => "sessions",
+        "Le Déroulement D'une Séance" => "sessions",
         "Pour Venir Nous Voir" => "contact"
     );
 }

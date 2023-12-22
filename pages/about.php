@@ -1,8 +1,8 @@
 <!-- About Start -->
 <div class="container-fluid py-5">
     <div class="container py-5">
-        <h1 class="mb-5 pb-5">LUCINA : Votre Centre De Photobiomodulation </h1>
-        <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
+        <h1 class="mb-3">LUCINA : Votre Centre De Photobiomodulation </h1>
+        <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6>
         <div class="row align-items-center">
             <div class="col-lg-6 pb-5 pb-lg-0">
                 <img class="img-fluid w-100" <?= img('about.webp') ?> alt="">
@@ -34,17 +34,6 @@
 <?php //component('team') 
 ?>
 <!-- Team End -->
-
-<div class="container-fluid">
-    <div class="container py-5">
-            <div class="card-body">
-                <h5 class="card-title mb-3">UN MATÉRIEL CERTIFIÉ ET UN PRATICIEN QUALIFIÉ À VOTRE ÉCOUTE</h5>
-                <p class="card-text">Tous nos équipements sont fabriqués en France et ont les certifications requises. Un gage d'efficacité et de sécurité.</p>
-                <p class="card-text">Votre praticien est également un expert qualifié, formé pour la pratique de la Photobiomodulation et sur les équipements utilisés.</p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
-    </div>
-</div>
 
 
 <!-- About Photobiomodulation start -->

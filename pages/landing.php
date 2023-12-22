@@ -6,11 +6,11 @@
 
 
 <!-- About Start -->
-<div class="container-fluid py-5">
+<!-- <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-lg-6 pb-5 pb-lg-0">
-                <img class="img-fluid w-100" <?= img('about.webp') ?> alt="">
+                <img class="img-fluid w-100" <  ?= img('about.webp') ?> alt="">
             </div>
             <div class="col-lg-6">
                 <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6>
@@ -19,9 +19,9 @@
                     L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison. Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
                 <br><br>
                     Pratiquée depuis plus de 20 ans dans des domaines spécialisés, particulièrement développée aux Etats Unis et dans les pays nordiques, son efficacité et son innocuité ont été validées par de nombreuses études scientifiques et cliniques. Son développement en France reste plus récent.
-                    <a href="<?= the_site_url() ?>about">En savoir plus...</a>
+                    <a href="< ?= the_site_url() ?>about">En savoir plus...</a>
                 </p>
-                <!-- <div class="row pt-3 d-flex ">
+                <div class="row pt-3 d-flex ">
                     <div class="col-md-6">
                         <div class="bg-light text-center p-4 h-100 addon-flex-center">
                             <h3 class="display-4 text-primary" data-toggle="counter-up">30</h3>
@@ -34,7 +34,27 @@
                             <h6 class="text-uppercase">ÉTUDES SCIENTIFIQUES PUBLIÉES</h6>
                         </div>
                     </div>
-                </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-3">LUCINA : Votre Centre De Photobiomodulation </h1>
+        <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6>
+        <div class="row align-items-center">
+            <div class="col-lg-6 pb-5 pb-lg-0">
+                <img class="img-fluid w-100" <?= img('about.webp') ?> alt="">
+            </div>
+            <div class="col-lg-6">
+                <p class="pl-4 border-left border-primary text-justify">
+                    L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison. Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
+                    <br><br>
+                    Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
+                    <br><br>
+                    Pratiquée depuis plus de 20 ans dans des domaines spécialisés, particulièrement développée aux Etats Unis et dans les pays nordiques, son efficacité et son innocuité ont été validées par de nombreuses études scientifiques et cliniques. Son développement en France reste plus récent.
+                </p>
             </div>
         </div>
     </div>
@@ -43,25 +63,25 @@
 
 
 <!-- Service Start -->
-<div class="container-fluid px-0 py-5 my-5">
+<!-- <div class="container-fluid px-0 py-5 my-5">
     <div class="row mx-0 justify-content-center text-center">
         <div class="col-lg-6">
             <h1>LA CARTE DES SOINS </h1>
             <p>Une technique exploitant les effets de la lumière</p>
         </div>
     </div>
-    <?= component('services-carousel') ?>
-</div>
+    < ?= component('services-carousel') ?>
+</div> -->
 <!-- Service End -->
 
 
 <!-- Open Hours Start -->
-<div class="container-fluid py-5">
+<!-- <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="row">
             <div class="col-lg-6" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" <?= img('opening.webp') ?> style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" < ?= img('opening.webp') ?> style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 pt-5 pb-lg-5">
@@ -74,33 +94,25 @@
                         <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Samedi : 9:00 AM - 6:00 PM</li>
                         <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Dimanche : Fermé</li>
                     </ul>
-                    <!-- <a href="" class="btn btn-primary mt-2">Book Now</a> -->
+                    <a href="" class="btn btn-primary mt-2">Book Now</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Open Hours End -->
+
+
+<?=component('accordian')?>
 
 
 <!-- A TRIPLE EXPERTISE start -->
 <?= component('triple-expertise') ?>
 <!-- A TRIPLE EXPERTISE end -->
 
-<div class="container-fluid">
-    <div class="container pb-5">
-            <div class="card-body">
-                <h5 class="card-title mb-3">UN MATÉRIEL CERTIFIÉ ET UN PRATICIEN QUALIFIÉ À VOTRE ÉCOUTE</h5>
-                <p class="card-text">Tous nos équipements sont fabriqués en France et ont les certifications requises. Un gage d'efficacité et de sécurité.</p>
-                <p class="card-text">Votre praticien est également un expert qualifié, formé pour la pratique de la Photobiomodulation et sur les équipements utilisés.</p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
-    </div>
-</div>
-
 
 <!-- Pricing Start -->
-<?= component('pricing') ?>
+<!-- < ?= component('pricing') ?> -->
 <!-- Pricing End -->
 
 
@@ -127,5 +139,5 @@
 <!-- Testimonial End -->
 
 <!-- Contact Start -->
-<?php component('contact')?>
+<!-- < ?php component('contact')?> -->
 <!-- Contact End -->
