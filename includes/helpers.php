@@ -425,10 +425,10 @@ function services_menu(){
 
 function the_menus(){
     return array(
-        "Maison" => "",
-        "À propos" => "about",
-        "La Carte" => "services",
-        "Séance" => "sessions",
-        "Contact" => "contact"
+        "Votre Centre De Photobiomodulationi" => "",
+        "Qu'est-ce-que C'est" => "about",
+        "La Carte Des Soins" => "services",
+        "Le Déroulement D’une Séance" => "sessions",
+        "Pour Venir Nous Voir" => "contact"
     );
 }

@@ -34,13 +34,13 @@
 
 <!-- Navbar Start -->
 <div class="container-fluid p-0">
-    <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5 flex-column">
         <a href="<?= the_site_url() ?>" class="navbar-brand ml-lg-3 d-flex position-relative">
             <img style="height: 50px; width: auto;" <?= img('favicon.jpg') ?>>
             <h1 class="m-0 text-primary"><span class="text-dark"><?= data('project') ?></span></h1>
             <span style="position: absolute; bottom: -5px; right: 0; font-size: 12px;"><?= data('tagline') ?></span>
         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
@@ -69,7 +69,7 @@
                         $data_link = 'landing';
                     }
                     if($p == $data_link){
-                        echo '<a class="nav-item nav-link active" href="' . the_site_url() . $link . '">' . $item . '</a>';
+                        echo '<a class="nav-item nav-link active font-15px" href="' . the_site_url() . $link . '">' . $item . '</a>';
                     } else {
                         echo '<a class="nav-item nav-link" href="' . the_site_url() . $link . '">' . $item . '</a>';
                     }
