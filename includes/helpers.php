@@ -425,10 +425,17 @@ function services_menu(){
 
 function the_menus(){
     return array(
-        "Votre Centre De Photobiomodulationi" => "",
-        "Qu'est-ce-que C'est" => "about",
+        "L'institut Lucina" => "",
+        "La Photobiomodulation, Qu'est-ce Que C'est" => "about",
         "La Carte Des Soins" => "services",
         "Le Déroulement D'une Séance" => "sessions",
-        "Pour Venir Nous Voir" => "contact"
+        "Venir Nous Voir" => "contact"
     );
+    // return array(
+    //     "Votre Centre De Photobiomodulationi" => "",
+    //     "Qu'est-ce-que C'est" => "about",
+    //     "La Carte Des Soins" => "services",
+    //     "Le Déroulement D'une Séance" => "sessions",
+    //     "Pour Venir Nous Voir" => "contact"
+    // );
 }

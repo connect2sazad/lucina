@@ -1,8 +1,6 @@
 <?= component('hero-slider') ?>
 
-<h1 class="text-center p-5 addon-h1">
-    <p>Votre nouveau centre Santé & Bien-être ouvre ses portes à Rueil Malmaison.</p>
-</h1>
+
 
 
 <!-- About Start -->
@@ -61,6 +59,10 @@
 </div>
 <!-- About End -->
 
+<h1 class="text-center p-5 addon-h1">
+    <p> &emsp;Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
+</h1>
+
 
 <!-- Service Start -->
 <!-- <div class="container-fluid px-0 py-5 my-5">
@@ -102,13 +104,15 @@
 </div> -->
 <!-- Open Hours End -->
 
-
-<?=component('accordian')?>
-
-
 <!-- A TRIPLE EXPERTISE start -->
 <?= component('triple-expertise') ?>
 <!-- A TRIPLE EXPERTISE end -->
+
+
+
+<!-- Accordian start -->
+<?=component('accordian')?>
+<!-- Accordian end -->
 
 
 <!-- Pricing Start -->
