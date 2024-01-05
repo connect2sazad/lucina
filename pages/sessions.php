@@ -6,42 +6,56 @@
         </div>
     </div>
 
-    <div class="container-fluid px-5 pt-5 mt-5">
-        <h4 class="text-decoration-underline">COMMENT CELA FONCTIONNE</h4>
-        <p class="pt-3">
-            Le corps est exposé en entier ou sur une zone ciblée à différentes longueurs d'ondes (couleurs) selon un programme spécifique à chaque indication.
-        </p>
-        <p class="pt-3">
-            La lumière utilisée est non invasive ; il s'agit d'une lumière non ionisante, dans le spectre visible et proche infrarouge (sans UV), et à des doses non thermiques.
-        </p>
-        <p class="pt-3">
-            La photobiomodulation a fait l'objet de nombreuses études cliniques prouvant depuis plus de 30 ans son efficacité et son innocuité, elle ne présente aucun risque de surdosage ni de brûlure, et peut être utilisée sur tous les phototypes et en toute saison. L'exposition solaire n'est pas interdite en cours de traitement.
-        </p>
-    </div>
+    <?= component('sessions-accordian') ?>
 
-    <div class="container-fluid px-5 pt-5 mt-5">
-        <h4 class="text-decoration-underline">PRÉCAUTIONS ET PRÉPARATION AVANT LA SÉANCE</h4>
-        <ul class="pt-3">
-            <li>Nettoyer la zone à exposer.</li>
-            <li>Éviter les crèmes, huiles essentielles, crèmes solaires.</li>
-            <li>N'hésitez-pas à poser vos questions et à signaler toute information qui vous semble utile à votre praticien lors de l'entretien précédent chaque séance.</li>
-        </ul>
-    </div>
 
-    <div class="container-fluid px-5 pt-5 mt-5">
-        <h4 class="text-decoration-underline">LES CONTRE-INDICATIONS</h4>
-        <ul class="pt-3">
-            <li>Traitement en cours indiquant un risque de photosensibilisation (certains médicaments, le cas échéant l'information est indiquée sur la notice du médicament), traitement oncologique.</li>
-            <li>Épilepsie.</li>
-            <li>Dispositifs médicaux implantés (notamment pacemakers, défibrillateurs, pompes à insuline).</li>
-            <li>Femmes enceintes.</li>
-        </ul>
-        <p class="pt-3">
-            Nos séances de photobiomodulation sont un complément et ne peuvent en aucun cas être considérées comme un traitement et/ou se substituer à un traitement médical quel qu'il soit.
-        </p>
-        <p class="pt-3">
-        Pour toute information complémentaire n'hésitez-pas à nous contacter et à venir nous voir. 
-        </p>
+    <div class="row mx-0 mt-5 pt-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+            <h1>LE MOT DE VOTRE PRATICIEN</h1>
+        </div>
+
+
+        <div class="col-lg-10">
+            <p class="my-5">
+                Notre approche est globale, et avant tout humaine, nous avons à cœur de bien vous accueillir,
+                d'être à votre écoute, et de vous accompagner au mieux au quotidien.
+            </p>
+            <p>L'efficacité d'une technique de soin dépend de différents paramètres :</p>
+            <ul>
+                <li><u>La technique elle-même</u>: son efficacité et son innocuité doivent être attestées par des études cliniques suffisamment nombreuses et fiables. La Photobiomodulation dispose ainsi de plus de 30 ans d'études et de plus de 5000 études scientifiques publiées dans le monde entier.</li>
+                <li><u>Le matériel</u>: les équipements doivent être de qualité et habilités pour un usage professionnel.
+                    <br>
+                    Tous nos équipements sont fabriqués en France, sont équipés de LED de qualité médicale, disposent des certifications requises pour une utilisation professionnelle (les paramètres et les puissances sont différents des matériels vendus pour un usage particulier, et font l'objet de contrôles attestant leur conformité). Ils ont été évalués par des études cliniques officielles prouvant leur efficacité.
+
+                </li>
+                <li><u>Le praticien</u>: la qualité de sa formation et sa capacité à écouter et accompagner. 
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-10">
+            <p class="my-5">
+                Votre praticien dispose de formations de référence en Photobiomodulation :
+            </p>
+            <ul>
+                <li>Formation Photobiomodulation/Mil-thérapie du CERS-TA (Centre de formation en Thérapies Alternatives) </li>
+                <li>Formation LED et Photobiomodulation de l'OFNT (Organisme de Formation aux Nouvelles Technologies) </li>
+                <li>Suivi du Diplôme Universitaire de Photobiomodulation à la faculté de médecine de l'université de Montpellier à Nîmes, en candidature libre (en partenariat avec l'EMALT Euro-Mediterranean Association for Light Therapy).</li>
+            </ul>
+        </div>
+
+        <div class="col-lg-10">
+            <p class="my-5">
+                Et de deux formations complémentaires permettant de mieux vous accompagner :
+            </p>
+            <ul>
+                <li>Sophrologue certifié (formation enregistrée au RNCP - niveau 3 (FR) niveau 5 (EUR)</li>
+                <li>Coach consultant ((formation enregistrée au RNCP - niveau 5 (FR) niveau 7 (EUR).</li>
+            </ul>
+            <p>Il est également membre de l'EMALT qui est l'association européenne de référence en Photobiomodulation, et dispose de plusieurs années d'expérience dans les milieux sportifs (coaching, pratique de plusieurs sports en loisir ou compétition).</p>
+            <p>Votre praticien n'est pas médecin, il ne peut procéder à aucun diagnostic ni à aucun traitement.</p>
+        </div>
+
     </div>
 
 </div>
