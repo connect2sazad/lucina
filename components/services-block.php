@@ -24,7 +24,7 @@ $bien_etre_item4->title = 'Ma pause anti-déprime';
 $bien_etre_item4->desc = 'Ma pause anti-déprime, suggérant un moment dédié à la lutte contre le blues et au bien-être mental.';
 
 $bien_etre_item5 = new ServiceItem();
-$bien_etre_item5->title = 'Ma pause fortifiante (soutien immunité)';
+$bien_etre_item5->title = 'Ma pause fortifiante';
 $bien_etre_item5->desc = 'Ma pause fortifiante, suggérant un moment dédié au renforcement immunitaire et au bien-être global.';
 
 $bien_etre->addServiceItem($bien_etre_item1);
@@ -76,15 +76,15 @@ $sante->addServiceItem($sante_item6);
 $esthetique = new ServicesCard;
 
 $esthetique_item1 = new ServiceItem();
-$esthetique_item1->title = 'Visage';
+$esthetique_item1->title = 'Visage (anti-rides, éclat, fermeté, acné, couperose).';
 $esthetique_item1->desc = 'Ma pause détente évoque un moment de détente et de relaxation.';
 
 $esthetique_item2 = new ServiceItem();
-$esthetique_item2->title = 'Cheveux';
+$esthetique_item2->title = 'Cheveux (soin densificateur, réduction de l’alopécie)';
 $esthetique_item2->desc = 'Ma pause forme suggérant un moment dédié à la forme physique et au bien-être.';
 
 $esthetique_item3 = new ServiceItem();
-$esthetique_item3->title = 'Corps entier';
+$esthetique_item3->title = 'Corps entier (minceur, fermeté, anti-âge)';
 $esthetique_item3->desc = 'Ma pause détox, suggérant un moment dédié à la purification et au bien-être intérieur.';
 
 $esthetique->addServiceItem($esthetique_item1);
@@ -114,6 +114,13 @@ $sportif->addServiceItem($sportif_item3);
 /***************************Le coin du sportif***************************************************************************** */
 ?>
 
+<div class="container-fluid px-5 mt-5">
+    <h3 class="mb-3">Esthétique</h3>
+    <div class="row">
+        <?= $esthetique->getServices(); ?>
+    </div>
+</div>
+
 <div class="container-fluid px-5 mt-4">
     
     <h3 class="mb-3">Bien être</h3>
@@ -130,14 +137,7 @@ $sportif->addServiceItem($sportif_item3);
 </div>
 
 <div class="container-fluid px-5 mt-5">
-    <h3 class="mb-3">Esthétique</h3>
-    <div class="row">
-        <?= $esthetique->getServices(); ?>
-    </div>
-</div>
-
-<div class="container-fluid px-5 mt-5">
-    <h3 class="mb-3">Le coin du sportif</h3>
+    <h3 class="mb-3">Sport et compétition</h3>
     <div class="row">
         <?= $sportif->getServices(); ?>
     </div>

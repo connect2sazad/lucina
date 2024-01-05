@@ -43,15 +43,15 @@
         <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6>
         <div class="row align-items-center">
             <div class="col-lg-6 pb-5 pb-lg-0">
-                <img class="img-fluid w-100" <?= img('about.webp') ?> alt="">
+                <img class="img-fluid w-60" <?= img('about.webp') ?> alt="">
             </div>
             <div class="col-lg-6">
                 <p class="pl-4 border-left border-primary text-justify">
-                    L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison. Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
+                    L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
                     <br><br>
                     Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
                     <br><br>
-                    Pratiquée depuis plus de 20 ans dans des domaines spécialisés, particulièrement développée aux Etats Unis et dans les pays nordiques, son efficacité et son innocuité ont été validées par de nombreuses études scientifiques et cliniques. Son développement en France reste plus récent.
+                    Notre vocation : vous apporter notre expertise pour accompagner votre bien être au quotidien, et les bienfaits d'une technique innovante, jusqu'ici peu accessible au grand public.
                 </p>
             </div>
         </div>

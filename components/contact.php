@@ -1,10 +1,19 @@
-<?=component('appointments')?>
+<?= component('appointments') ?>
 
 
 <div class="container-fluid py-5">
     <div class="container py-5">
         <h2 class="mb-5 pb-5 text-center">CONTACT ET PLAN D'ACCES</h2>
         <div class="row">
+            <div class="col-lg-12">
+                <h4 class="text-decoration-underline">POUR PRENDRE RENDEZ-VOUS : </h4>
+                <p class="my-5">
+                    Par téléphone ou directement à l'institut LUCINA sur les heures d'ouverture.
+                    Soin visage : entrée libre selon disponibilité, ou sur rendez-vous.
+                    Soin global et soin ciblé : sur rendez-vous.
+
+                </p>
+            </div>
             <div class="col-lg-6" style="min-height: 400px;">
                 <div class="position-relative h-100">
                     <iframe class="position-absolute w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.06545714329!2d2.1774394756633915!3d48.87602869946613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6635cf3ba8d85%3A0xb2b38fb295876c5c!2s8%20Rue%20Jean%20le%20Coz%2C%2092500%20Rueil-Malmaison%2C%20France!5e0!3m2!1sen!2sin!4v1702455974567!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -23,16 +32,16 @@
                     <p>
                         <strong>Bus</strong> : <br>
                         Arrêt le plus proche : Rueil Malmaison « Eglise de Rueil » desservi par les lignes:
-                        <ul>
-                            <li>144 (Rueil Malmaison RER - La Défense)</li>
-                            <li>467 (Rueil Malmaison RER - Pont de Sèvres)</li>
-                            <li>565 (Les Hauts de Rueil)</li>
-                            <li>564 (Jonchère Malmaison Saint-Cucufa)</li>
-                        </ul>
+                    <ul>
+                        <li>144 (Rueil Malmaison RER - La Défense)</li>
+                        <li>467 (Rueil Malmaison RER - Pont de Sèvres)</li>
+                        <li>565 (Les Hauts de Rueil)</li>
+                        <li>564 (Jonchère Malmaison Saint-Cucufa)</li>
+                    </ul>
                     </p>
                     <p>
                         <strong>En voiture</strong> :
-                        Parking le plus proche: parking Indigo Arcades  <br>
+                        Parking le plus proche: parking Indigo Arcades <br>
                         (Le cœur de ville dispose de nombreux parking pour vous accueillir).
                     </p>
                 </div>
@@ -44,12 +53,12 @@
 <div class="container-fluid pb-5">
     <div class="container">
         <h5 class="mb-3">A l'attention des « non rueillois »</h2>
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="text-justify">
-                    Rueil Malmaison est un endroit plein de charme, vous pouvez en profiter pour visiter ce centre-ville historique où il fait bon flâner et se promener, découvrir ses boutiques colorées au détour de ses petites places et ruelles, prendre un verre ou déguster de bons plats dans ses nombreux restaurants, ou encore visiter l'église Saint Pierre Saint Paul, le château de la Malmaison et le Bois Préau à proximité. L'office de tourisme situé à quelques pas de l'Institut Lucina, au 33 rue Jean Le Coz, pourra vous renseignez et vous guider.
-                </p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-justify">
+                        Rueil Malmaison est un endroit plein de charme, vous pouvez en profiter pour visiter ce centre-ville historique où il fait bon flâner et se promener, découvrir ses boutiques colorées au détour de ses petites places et ruelles, prendre un verre ou déguster de bons plats dans ses nombreux restaurants, ou encore visiter l'église Saint Pierre Saint Paul, le château de la Malmaison et le Bois Préau à proximité. L'office de tourisme situé à quelques pas de l'Institut Lucina, au 33 rue Jean Le Coz, pourra vous renseignez et vous guider.
+                    </p>
+                </div>
             </div>
-        </div>
     </div>
 </div>

@@ -6,7 +6,7 @@
                 <div class="card-body">
                     <!-- <img class="card-img-top mb-5" < ?= img('triple-expertise/SOIN ESTHÉTIQUE.webp') ?>> -->
                     <h5 class="card-title">SOIN ESTHÉTIQUE</h5>
-                    <p class="card-text text-justify">Venez découvrir notre bar à lumière et les bienfaits de notre masque spécifique soin du visage.</p>
+                    <p class="card-text text-justify">Venez découvrir notre bar à lumière et les bienfaits de notre masque spécifique soin du visage, ainsi que nos soins de photobiomodulation esthétique pour le corps.</p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>
@@ -14,7 +14,7 @@
                 <div class="card-body">
                     <!-- <img class="card-img-top mb-5" < ?= img('triple-expertise/SOIN GLOBAL.webp') ?>> -->
                     <h5 class="card-title">SOIN GLOBAL</h5>
-                    <p class="card-text text-justify">Venez vous relaxer et vous ressourcer dans notre espace Lucina Care; un cocon de lumière permettant une exposition corps entier. Un soin holistique complet et adapté à l’objectif de la séance.</p>
+                    <p class="card-text text-justify">Venez vous relaxer et vous ressourcer dans notre espace Lucina Care; un cocon de lumière permettant une exposition corps entier. Un soin holistique complet et adapté à l'objectif de la séance.</p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <!-- <img class="card-img-top mb-5" < ?= img('triple-expertise/SOIN CIBLÉ.webp') ?>> -->
                     <h5 class="card-title">SOIN CIBLÉ</h5>
-                    <p class="card-text text-justify">en soin unique ou en complément du soin global, un programme personnalisé et focalisé sur une ou plusieurs zones du corps, avec notre module multi-fonctions et multi-zones.</p>
+                    <p class="card-text text-justify">En soin unique ou en complément du soin global, un programme personnalisé et focalisé sur une ou plusieurs zones du corps.</p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
             </div>

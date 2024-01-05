@@ -39,18 +39,8 @@
         <p class="pt-3">
             Nos séances de photobiomodulation sont un complément et ne peuvent en aucun cas être considérées comme un traitement et/ou se substituer à un traitement médical quel qu'il soit.
         </p>
-    </div>
-
-    <div class="container-fluid px-5 pt-5 mt-5">
-        <h4 class="text-decoration-underline">POUR TOUTE INFORMATION COMPLÉMENTAIRE</h4>
         <p class="pt-3">
-            N'hésitez-pas à nous contacter et à venir nous voir.
-        </p>
-        <p class="pt-3">
-            Pour en savoir plus (bouton/lien vers un document intégré « le coin des spécialistes » )
-        </p>
-        <p class="pt-3">
-            Ils en parlent (à compléter ultérieurement)
+        Pour toute information complémentaire n'hésitez-pas à nous contacter et à venir nous voir. 
         </p>
     </div>
 
