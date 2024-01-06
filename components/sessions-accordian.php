@@ -7,6 +7,8 @@
                         <button class="btn ">
                             COMMENT CELA FONCTIONNE
                         </button>
+                        
+                        <div class="toggleplus">-</div>
                     </h5>
                 </div>
 
@@ -30,6 +32,8 @@
                         <button class="btn  collapsed">
                             PRÉCAUTIONS ET PRÉPARATION AVANT LA SÉANCE
                         </button>
+                        
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -48,6 +52,8 @@
                         <button class="btn  collapsed">
                             LES CONTRE-INDICATIONS
                         </button>
+                        
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">

@@ -2,6 +2,10 @@
 
 
 
+<h1 class="text-center p-5 addon-h1">
+    <p> &emsp;Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
+</h1>
+
 
 <!-- About Start -->
 <!-- <div class="container-fluid py-5">
@@ -40,7 +44,7 @@
 <div class="container-fluid py-5">
     <div class="container py-5">
         <h1 class="mb-3">LUCINA : Votre Centre De Photobiomodulation </h1>
-        <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6>
+        <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
         <div class="row align-items-center">
             <div class="col-lg-6 pb-5 pb-lg-0">
                 <img class="img-fluid w-60" <?= img('about.webp') ?> alt="">
@@ -48,7 +52,7 @@
             <div class="col-lg-6">
                 <p class="pl-4 border-left border-primary text-justify">
                     L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
-                    <br><br>
+                    <br>
                     Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
                     <br><br>
                     Notre vocation : vous apporter notre expertise pour accompagner votre bien être au quotidien, et les bienfaits d'une technique innovante, jusqu'ici peu accessible au grand public.
@@ -58,10 +62,6 @@
     </div>
 </div>
 <!-- About End -->
-
-<h1 class="text-center p-5 addon-h1">
-    <p> &emsp;Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
-</h1>
 
 
 <!-- Service Start -->

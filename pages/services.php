@@ -25,7 +25,7 @@
     </div>
     <?= component('pricing') ?>
 
-    <?=component('appointments')?>
+    <!-- < ?=component('appointments')?> -->
 
 </div>
 <!-- Service End -->

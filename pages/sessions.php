@@ -17,8 +17,8 @@
 
         <div class="col-lg-10">
             <p class="my-5">
-                Notre approche est globale, et avant tout humaine, nous avons à cœur de bien vous accueillir,
-                d'être à votre écoute, et de vous accompagner au mieux au quotidien.
+                Notre approche est globale, et avant tout humaine, <br> nous avons à cœur de bien vous accueillir, <br>
+                d'être à votre écoute, <br> et de vous accompagner au mieux au quotidien.
             </p>
             <p>L'efficacité d'une technique de soin dépend de différents paramètres :</p>
             <ul>

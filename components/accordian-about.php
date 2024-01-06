@@ -8,6 +8,8 @@
                             UNE TECHNIQUE EXPLOITANT LES EFFETS NATURELS DE LA LUMIERE
                         </button>
                         <div class="toggleplus">-</div>
+                        <!-- <div class="acc-more"><div class="toggleplus">-</div>Pour en savoir plus</div> -->
+                        
                     </h5>
                 </div>
 
@@ -28,6 +30,7 @@
                         </button>
                         
                         <div class="toggleplus">+</div>
+                        <!-- <div class="acc-more"><div class="toggleplus">-</div>Pour en savoir plus</div> -->
                     </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -44,8 +47,8 @@
                         <button class="btn  collapsed">
                             DE NOMBREUSES APPLICATIONS
                         </button>
-                        
                         <div class="toggleplus">+</div>
+                        <!-- <div class="acc-more"><div class="toggleplus">-</div>Pour en savoir plus</div> -->
                     </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">

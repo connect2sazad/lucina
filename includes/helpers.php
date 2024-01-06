@@ -416,9 +416,9 @@ function component($component_name, $p=null){
 
 function services_menu(){
     return array(
+        "Esthétique",
         "Bien être",
         "Santé",
-        "Esthétique",
         "Le coin du sportif"
     );
 }
@@ -426,10 +426,11 @@ function services_menu(){
 function the_menus(){
     return array(
         "L'institut Lucina" => "",
-        "La Photobiomodulation, Qu'est-ce Que C'est" => "about",
-        "La Carte Des Soins" => "services",
-        "Le Déroulement D'une Séance" => "sessions",
-        "Venir Nous Voir" => "contact"
+        // "La Photobiomodulation, Qu'est-ce Que C'est" => "about",
+        "La Photobiomodulation" => "about",
+        "Carte des soins" => "services",
+        "Le déroulement d'une séance" => "sessions",
+        "Venir nous voir" => "contact"
     );
     // return array(
     //     "Votre Centre De Photobiomodulationi" => "",
