@@ -58,3 +58,8 @@
     </div>
 </div>
 <!-- About Photobiomodulation end -->
+
+
+<!-- Accordian start -->
+<?=component('accordian-about')?>
+<!-- Accordian end -->

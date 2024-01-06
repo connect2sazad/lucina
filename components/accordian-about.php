@@ -4,9 +4,10 @@
             <div class="card">
                 <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <h5 class="mb-0">
-                        <button class="btn ">
+                        <button class="btn">
                             UNE TECHNIQUE EXPLOITANT LES EFFETS NATURELS DE LA LUMIERE
                         </button>
+                        <div class="toggleplus">-</div>
                     </h5>
                 </div>
 
@@ -25,6 +26,8 @@
                         <button class="btn  collapsed">
                             UNE METHODE EPROUVEE ET RECONNUE DE LONGUE DATE
                         </button>
+                        
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -41,6 +44,8 @@
                         <button class="btn  collapsed">
                             DE NOMBREUSES APPLICATIONS
                         </button>
+                        
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">

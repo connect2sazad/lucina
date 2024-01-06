@@ -7,6 +7,7 @@
                         <button class="btn ">
                         La Photobiomodulation : Qu'est-ce-que C'est
                         </button>
+                        <div class="toggleplus">-</div>
                     </h5>
                 </div>
 
@@ -25,6 +26,7 @@
                         <button class="btn  collapsed">
                             La Carte Des Soins
                         </button>
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -43,6 +45,7 @@
                         <button class="btn  collapsed">
                             Le Déroulement D'une Séance
                         </button>
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -62,6 +65,7 @@
                         <button class="btn  collapsed">
                             Le Déroulement D'une Séance
                         </button>
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">

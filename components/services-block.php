@@ -114,10 +114,10 @@ $sportif->addServiceItem($sportif_item3);
 /***************************Le coin du sportif***************************************************************************** */
 ?>
 
-<!-- <div class="container-fluid px-5 mt-5">
+<div class="container-fluid px-5 mt-5">
     <h3 class="mb-3">Esthétique</h3>
     <div class="row">
-        < ?= $esthetique->getServices(); ?>
+        <?= $esthetique->getServices(); ?>
     </div>
 </div>
 
@@ -125,21 +125,21 @@ $sportif->addServiceItem($sportif_item3);
     
     <h3 class="mb-3">Bien être</h3>
     <div class="row">
-        < ?= $bien_etre->getServices(); ?>
+        <?= $bien_etre->getServices(); ?>
     </div>
 </div>
 
 <div class="container-fluid px-5 mt-5">
     <h3 class="mb-3">Santé</h3>
     <div class="row">
-        < ?= $sante->getServices(); ?>
+        <?= $sante->getServices(); ?>
     </div>
 </div>
 
 <div class="container-fluid px-5 mt-5">
     <h3 class="mb-3">Sport et compétition</h3>
     <div class="row">
-        < ?= $sportif->getServices(); ?>
+        <?= $sportif->getServices(); ?>
     </div>
-</div> -->
+</div>
 

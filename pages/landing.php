@@ -111,7 +111,7 @@
 
 
 <!-- Accordian start -->
-<?=component('accordian')?>
+<?=component('accordian-landing')?>
 <!-- Accordian end -->
 
 
