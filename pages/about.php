@@ -37,13 +37,13 @@
 
 
 <!-- About Photobiomodulation start -->
-<div class="container-fluid py-5">
+<!-- <div class="container-fluid py-5">
     <div class="container py-5">
         <h1 class="mb-5 pb-5">LUCINA : Votre Centre De Photobiomodulation </h1>
-        <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
+        <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6>
         <div class="row align-items-center">
             <div class="col-lg-6 pb-5 pb-lg-0">
-                <img class="img-fluid w-100" <?= img('PHOTOBIOMODULATION.webp') ?> alt="">
+                <img class="img-fluid w-100" < ?= img('PHOTOBIOMODULATION.webp') ?> alt="">
             </div>
             <div class="col-lg-6">
                 <p class="pl-4 border-left border-primary text-justify">
@@ -56,7 +56,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- About Photobiomodulation end -->
 
 

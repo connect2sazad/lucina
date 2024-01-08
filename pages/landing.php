@@ -1,9 +1,18 @@
-<?= component('hero-slider') ?>
+<!-- < ?= component('hero-slider') ?> -->
 
-
+<div class="container-fluid pb-5">
+    <div class="container py-5">
+        <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 pb-5 pb-lg-0">
+                <img class="img-fluid w-60" <?= img('about.webp') ?> alt="">
+            </div>
+        </div>
+    </div>
+</div>
 
 <h1 class="text-center p-5 addon-h1">
-    <p> &emsp;Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
+    <p style="font-size: 25px;"> &emsp;Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
 </h1>
 
 
@@ -43,13 +52,10 @@
 </div> -->
 <div class="container-fluid py-5">
     <div class="container py-5">
-        <h1 class="mb-3">LUCINA : Votre Centre De Photobiomodulation </h1>
+        <h1 class="mb-3">LUCINA : VOTRE CENTRE DE PHOTOBIOMODULATION</h1>
         <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
         <div class="row align-items-center">
-            <div class="col-lg-6 pb-5 pb-lg-0">
-                <img class="img-fluid w-60" <?= img('about.webp') ?> alt="">
-            </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <p class="pl-4 border-left border-primary text-justify">
                     L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
                     <br>
@@ -111,7 +117,7 @@
 
 
 <!-- Accordian start -->
-<?=component('accordian-landing')?>
+<!-- < ?=component('accordian-landing')?> -->
 <!-- Accordian end -->
 
 

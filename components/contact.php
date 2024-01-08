@@ -5,7 +5,7 @@
     <div class="container py-5">
         <h2 class="mb-5 pb-5 text-center">CONTACT ET PLAN D'ACCES</h2>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 <h4 class="text-decoration-underline">POUR PRENDRE RENDEZ-VOUS : </h4>
                 <p class="my-5">
                     Par téléphone ou directement à l'institut LUCINA sur les heures d'ouverture. <br>
@@ -13,6 +13,9 @@
                     Soin global et soin ciblé : sur rendez-vous.
 
                 </p>
+            </div>
+            <div class="col-lg-4">
+                <img <?=img('contact.jpeg')?> style="height: 300px; width: 300px">
             </div>
 
             <div class="col-lg-12">

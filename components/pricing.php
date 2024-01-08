@@ -1,4 +1,4 @@
-<div class="container-fluid px-5 mt-3">
+<!-- <div class="container-fluid px-5 mt-3">
   <div class="table-responsive">
     <table class="table table-bordered">
       <thead>
@@ -39,4 +39,8 @@
       <caption>* (différentes modalités de paiement)</caption>
     </table>
   </div>
+</div> -->
+<div style="display: flex; width:100%;justify-content:center;">
+  
+  <img <?=img('tarrifs.png')?>>
 </div>

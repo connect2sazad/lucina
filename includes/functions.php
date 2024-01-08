@@ -137,6 +137,7 @@ function loadStyleSheets()
         <link rel="stylesheet" href="' . assets('lib/animate/animate.min.css') . '" rel="stylesheet" />
         <link rel="stylesheet" href="' . assets('lib/owlcarousel/assets/owl.carousel.min.css') . '" rel="stylesheet" />
         <link rel="stylesheet" href="' . assets('lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') . '" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
         <link rel="stylesheet" href="' . css('style') . '" />
         <link rel="stylesheet" href="' . css('addon') . '" />
@@ -197,6 +198,7 @@ function loadFooterScripts($load_base = true)
         <script src="' . assets('lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') . '"></script>
         <script src="' . assets('mail/jqBootstrapValidation.min.js') . '"></script>
         <script src="' . assets('mail/contact.js') . '"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         
         <!-- Addon JS -->
         <script src="' . js('main') . '"></script>

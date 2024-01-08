@@ -14,3 +14,9 @@ Monday : Lundi
 Frdiay : Vendredi
 Saturday : Samedi
 Sunday : Dimanche
+
+
+triploe expertise slide & image
+add bottom border only to accordian
+
+apto font for headings and lucina
