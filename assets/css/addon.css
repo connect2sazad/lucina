@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+h1, .quicksand{
+    font-family: 'Quicksand'!important;
+}
+.blue{
+    color: #0A6FB5;
+}
+
+.set-bg-color{
+    background-color: #FAF7F5!important;
+}
+
 .addon-h1 {
     background-color: var(--primary);
     color: white;
@@ -100,13 +113,16 @@
 
 .card .toggleplus {
     color: #0A6FB5;
-    font-weight: bolder;
-    font-size: 31px !important;
+    font-size: 28px !important;
 }
 
 .animate-image-bg {
     position: relative;
     overflow: hidden;
+}
+
+.animate-image-bg .card{
+    background-color: #FAF7F5;
 }
 
 .video-background {
@@ -117,6 +133,7 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    background-color: #E9E5E6;
 }
 
 .container {
@@ -177,4 +194,51 @@
 
 .flex-title span{
     font-size: 12px;
+}
+
+.navbar-nav .nav-link{
+    height: max-content;
+    padding: 20px 20px!important;
+    margin: 15px 10px!important;
+    border-radius: 40px;
+}
+
+.navbar-nav .nav-link:hover, .active{
+    background-color: #0A6FB5;
+    color: white!important;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: rgba(10, 110, 181, 0.697);
+}
+
+.hero-image{
+    height: 700px;
+    border-bottom-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+}
+
+.ADDON-WHITE-bG{
+    position: relative;
+}
+
+.addon-white-BACKDROP{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.addon-tc{
+    display: flex;
+    justify-content: center;
+}
+
+.addon-tc p{
+    margin-top: 16px!important;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: max-content;
 }

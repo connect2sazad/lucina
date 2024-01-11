@@ -50,18 +50,18 @@ class ServicesCard
     {
         $html = '';
         foreach ($this->serviceItems as $serviceItem) {
-            $html .= '<div class="col-md-3 mb-4">';
-            $html .= '<div class="card">';
-            $html .= '<div class="card-header">';
-            $html .= $serviceItem->title;
-            $html .= '</div>';
+            // $html .= '<div class="col-md-3 mb-4">';
+            // $html .= '<div class="card">';
+            // $html .= '<div class="card-header">';
+            $html .= '- '.$serviceItem->title."<br>";
+            // $html .= '</div>';
             // $html .= '<div class="card-body">';
             // $html .= '<h5 class="card-title"> </h5>';
             // $html .= '<p class="card-text">' . $serviceItem->desc . '</p>';
             // $html .= '<a href="' . $serviceItem->link . '" class="btn btn-primary">Details</a>';
             // $html .= '</div>';
-            $html .= '</div>';
-            $html .= '</div>';
+            // $html .= '</div>';
+            // $html .= '</div>';
         }
         return $html;
     }

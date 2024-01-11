@@ -1,19 +1,16 @@
 <!-- < ?= component('hero-slider') ?> -->
-
-<div class="container-fluid pb-5">
-    <div class="container py-5">
-        <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-5 pb-5 pb-lg-0">
-                <img class="img-fluid w-60" <?= img('about.webp') ?> alt="">
-            </div>
-        </div>
-    </div>
-</div>
-
 <h1 class="text-center p-5 addon-h1">
     <p style="font-size: 25px;"> &emsp;Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
 </h1>
+<div class="full-width overflow-hidden">
+    <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
+    <div class="row align-items-center justify-content-center">
+        <div class="col-lg-12 p-0 pb-lg-0 ADDON-WHITE-bG">
+            <div class="addon-white-BACKDROP"></div>
+            <img class="img-fluid w-100 hero-image" <?= img('about.webp') ?>>
+        </div>
+    </div>
+</div>
 
 
 <!-- About Start -->
@@ -52,17 +49,21 @@
 </div> -->
 <div class="container-fluid py-5">
     <div class="container py-5">
-        <h1 class="mb-3">LUCINA : VOTRE CENTRE DE PHOTOBIOMODULATION</h1>
+        <!-- <h1 class="mb-3">LUCINA : VOTRE CENTRE DE PHOTOBIOMODULATION</h1> -->
         <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
         <div class="row align-items-center">
-            <div class="col-lg-12">
-                <p class="pl-4 border-left border-primary text-justify">
-                    L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
-                    <br>
-                    Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
-                    <br><br>
-                    Notre vocation : vous apporter notre expertise pour accompagner votre bien être au quotidien, et les bienfaits d'une technique innovante, jusqu'ici peu accessible au grand public.
-                </p>
+            <div class="col-lg-6 pb-5 pb-lg-0">
+                <img <?= img('triple-expertise/te.jpg') ?> class="img-fluid w-100">
+            </div>
+            <div class="col-lg-6">
+                <h3 class="mb-3 quicksand blue">L'instutit Lucina</h1>
+                    <p class="pl-4 border-left border-primary text-justify">
+                        L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
+                        <br>
+                        Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
+                        <br><br>
+                        Notre vocation : vous apporter notre expertise pour accompagner votre bien être au quotidien, et les bienfaits d'une technique innovante, jusqu'ici peu accessible au grand public.
+                    </p>
             </div>
         </div>
     </div>
@@ -132,7 +133,7 @@
         <div class="media-body ml-5">
             <h5 class="mt-0">UN PEU D'HISTOIRE : DE L'ANTIQUITE A LA RECHERCHE SPATIALE</h5>
             <p class="text-justify">Les effets bénéfiques de la lumière sont connus depuis l'antiquité par de nombreuses civilisations (Egypte, Grèce, Méso-Amérique, Chine, Inde). Son utilisation se développe surtout au milieu du XIXème siècle avec l'épidémie de tuberculose et le développement des sanatoriums, validant le traitement par la cure d'air, de lumière et de soleil, seul remède connu avant l'avènement des antibiotiques.</p>
-            <p class="text-justify">Les progrès scientifiques et techniques réalisés dans le courant du XIX siècle permettront de poser les bases de la photobiomodulation (citons notamment le Dr Finsen prix Nobel de médecine en 1903 pour son étude sur l'utilisation de radiations lumineuses dans le traitement de certaines maladies ; Albert Einstein prix Nobel de physique en 1921 pour sa découverte de la loi de l'effet photoélectrique; <a href="<?=the_site_url()?>about/history">En savoir plus...</a></p>
+            <p class="text-justify">Les progrès scientifiques et techniques réalisés dans le courant du XIX siècle permettront de poser les bases de la photobiomodulation (citons notamment le Dr Finsen prix Nobel de médecine en 1903 pour son étude sur l'utilisation de radiations lumineuses dans le traitement de certaines maladies ; Albert Einstein prix Nobel de physique en 1921 pour sa découverte de la loi de l'effet photoélectrique; <a href="<?= the_site_url() ?>about/history">En savoir plus...</a></p>
         </div>
     </div>
 </div> -->

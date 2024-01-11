@@ -23,11 +23,11 @@
     } */
 </style>
 
-<div class="container-fluid px-0 py-5 my-5">
+<div class="container-fluid px-0 my-5">
 <div class="row mx-0 mt-5 pt-5 justify-content-center">
-        <div class="col-lg-10 mb-5 pb-5 ">
+        <div class="col-lg-9">
             <!-- <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">OUR SERVICE</h6> -->
-            <h1>LE DÉROULEMENT D'UNE SÉANCE</h1>
+            <h4 class="blue quicksand">LE DÉROULEMENT D'UNE SÉANCE</h4>
         </div>
     </div>
 
@@ -35,15 +35,15 @@
 
 
     <div class="row mx-0 mt-5 pt-5 justify-content-center">
-        <div class="col-lg-10 mb-5 pb-5 ">
-            <h1>LE MOT DE VOTRE PRATICIEN</h1>
+        <div class="col-lg-9 mb-5 pb-5 ">
+            <h4 class="blue quicksand">LE MOT DE VOTRE PRATICIEN</h4>
         </div>
 
 
         <div class="col-lg-10">
             <div class="container">
             <div class="row">
-                <div class="col-9" style="height: 100%; display:flex; align-items:center;">
+                <div class="col-5" style="height: 100%; display:flex; align-items:center;">
                     <p>
                         Notre approche est globale, et avant tout humaine, <br> nous avons à cœur de bien vous accueillir, <br>
                         d'être à votre écoute, <br> et de vous accompagner au mieux au quotidien.
@@ -60,12 +60,12 @@
                 <!-- <div class="swiper mySwiper">
                     <div class="swiper-wrapper"> -->
                         <div class="swiper-slide">
-                            <p>La technique elle-même</u>: son efficacité et son innocuité doivent être attestées par des études cliniques suffisamment nombreuses et fiables. La Photobiomodulation dispose ainsi de plus de 30 ans d'études et de plus de 5000 études scientifiques publiées dans le monde entier.</p>
+                            <p><u>La technique elle-même</u>: son efficacité et son innocuité doivent être attestées par des études cliniques suffisamment nombreuses et fiables. La Photobiomodulation dispose ainsi de plus de 30 ans d'études et de plus de 5000 études scientifiques publiées dans le monde entier.</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
                                 <div class="col-12">
-                                    <p>Le matériel : les équipements doivent être de qualité et habilités pour un usage professionnel.</p>
+                                    <p><u>Le matériel</u> : les équipements doivent être de qualité et habilités pour un usage professionnel.</p>
                                 </div>
                                 <div class="col-4">
                                     <img <?= img('sessions2.jpeg') ?> style="height: 200px; width:200px ">
@@ -102,7 +102,7 @@
                                 <li>Sophrologue certifié (formation enregistrée au RNCP - niveau 3 (FR) niveau 5 (EUR)</li>
                                 <li>Coach consultant ((formation enregistrée au RNCP - niveau 5 (FR) niveau 7 (EUR).</li>
                             </ul>
-                            <p>Il est également membre de l'EMALT qui est l'association européenne de référence en Photobiomodulation, et dispose de plusieurs années d'expérience dans les milieux sportifs (coaching, pratique de plusieurs sports en loisir ou compétition).</p>
+                            <p>Il est également membre de l'EMALT qui est l'association européenne de référence en Photobiomodulation, et dispose de plusieurs années d'expérience dans les milieux sportifs.</p>
                             <p>Votre praticien n'est pas médecin, il ne peut procéder à aucun diagnostic ni à aucun traitement.</p>
                         </div>
                     <!-- </div>

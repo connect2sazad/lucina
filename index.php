@@ -30,7 +30,11 @@ if($p == ''){
 
 </head>
 
-<body>
+<body <?php
+        if($p=='landing'){
+            echo 'class="set-bg-color"';
+        }
+?>>
     
     <?=component('header', $p)?>
 

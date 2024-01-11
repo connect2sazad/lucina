@@ -425,11 +425,11 @@ function services_menu(){
 
 function the_menus(){
     return array(
-        "L'institut Lucina" => "",
+        "L'institut" => "",
         // "La Photobiomodulation, Qu'est-ce Que C'est" => "about",
         "La Photobiomodulation" => "about",
         "Carte des soins" => "services",
-        "Le déroulement d'une séance" => "sessions",
+        "Déroulement d'une séance" => "sessions",
         "Venir nous voir" => "contact"
     );
     // return array(

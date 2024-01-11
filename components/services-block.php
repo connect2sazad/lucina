@@ -114,32 +114,119 @@ $sportif->addServiceItem($sportif_item3);
 /***************************Le coin du sportif***************************************************************************** */
 ?>
 
-<div class="container-fluid px-5 mt-5">
+<!-- <div class="container-fluid px-5 mt-5">
     <h3 class="mb-3">Esthétique</h3>
     <div class="row">
-        <?= $esthetique->getServices(); ?>
+        < ?= $esthetique->getServices(); ?>
     </div>
-</div>
+</div> -->
 
-<div class="container-fluid px-5 mt-4">
+<!-- <div class="container-fluid px-5 mt-4">
     
     <h3 class="mb-3">Bien être</h3>
     <div class="row">
-        <?= $bien_etre->getServices(); ?>
+        < ?= $bien_etre->getServices(); ?>
     </div>
-</div>
+</div> -->
 
-<div class="container-fluid px-5 mt-5">
+<!-- <div class="container-fluid px-5 mt-5">
     <h3 class="mb-3">Santé</h3>
     <div class="row">
-        <?= $sante->getServices(); ?>
+        < ?= $sante->getServices(); ?>
     </div>
-</div>
+</div> -->
 
-<div class="container-fluid px-5 mt-5">
+<!-- <div class="container-fluid px-5 mt-5">
     <h3 class="mb-3">Sport et compétition</h3>
     <div class="row">
-        <?= $sportif->getServices(); ?>
+        < ?= $sportif->getServices(); ?>
+    </div>
+</div> -->
+
+<style>
+    .card{
+        border-radius: 10px;
+        position: relative;
+        padding-top: 20px;
+        margin-right: -30px;
+        margin-top: -20px;
+    }
+
+    .card .plus{
+        position: absolute;
+        right: 15px;
+        bottom: 20px;
+        font-weight: bolder;
+        color: white;
+        font-size: 20px;
+        color: white;
+    }
+    .card .plus a{
+        color: white;
+        font-size: 13px;
+        text-decoration: none;
+        padding: 10px;
+        border: 2px solid #DFDFDF;
+        border-radius: 20px;
+    }
+
+    #KNjnsk .row{
+        margin-bottom: 50px!important;
+        margin-top: 50px!important;
+    }
+</style>
+
+<div class="container mt-4" id="KNjnsk">
+    <div class="row mb-4">
+        <div class="col-2"></div>
+        <div class="col-6">
+            <div class="card p-2" style="background-color: #F4B183; color: black">
+                <p class="text-center">Esthétique (visage et corps entier) :</p>
+                <?= $esthetique->getServices(); ?>
+                <div class="plus"><a href="<?=the_site_url()?>services/esthetique">Découvrir</a></div>
+            </div>
+        </div>
+        <div class="col-4"><img <?=img('s1.jpg')?> style="height: 200px; width: 200px"></div>
+    </div>
+    <div class="row mb-4">
+        <div class="col-4">
+            <div class="card p-2" style="background-color: #4472C4; color: white">
+                <div class="plus"><a href="<?=the_site_url()?>services/bien_entre">Découvrir</a></div>
+                <p class="text-center">Bien être :</p>
+                <?= $bien_etre->getServices(); ?>
+            </div>
+        </div>
+        <div class="col-4"><img <?=img('s2.jpg')?> style="height: 200px; width: 200px"></div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row mb-4">
+        <div class="col-2"></div>
+        <div class="col-4">
+            <div class="card p-2" style="background-color: #A9D18E; color: black">
+                <div class="plus"><a href="<?=the_site_url()?>services/sante">Découvrir</a></div>
+                <p class="text-center">Santé :</p>
+                <?= $sante->getServices(); ?>
+            </div>
+        </div>
+        <div class="col-4"><img <?=img('s3.jpg')?> style="height: 200px; width: 200px"></div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row mb-4">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="card p-2" style="background-color: #FFE699; color: black">
+                <div class="plus"><a href="<?=the_site_url()?>services/sport_et_competition">Découvrir</a></div>
+                <p class="text-center">Sport et compétition :</p>
+                <?= $sante->getServices(); ?>
+            </div>
+        </div>
+        <div class="col-4"><img <?=img('s4.jpg')?> style="height: 200px; width: 200px"></div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="card p-2 addon-tc" style="background-color: #2F5597; color: white">
+                <p>Soins à la carte (sur demande)</p>
+            </div>
+        </div>
     </div>
 </div>
-
