@@ -209,13 +209,15 @@ h1, .quicksand{
 }
 
 .navbar-nav .nav-link:hover{
-    background-color: rgba(10, 110, 181, 0.697);
+    background-color: rgba(247, 64, 79, 0.697);
 }
 
 .hero-image{
     height: 700px;
     border-bottom-left-radius: 13%;
     border-bottom-right-radius: 13%;
+    /* filter: brightness(1.1); */
+    opacity: .7;
 }
 
 .ADDON-WHITE-bG{
@@ -228,7 +230,9 @@ h1, .quicksand{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, .4);
+    /* background-color: rgba(203, 17, 17, 0.321); */
+    border-bottom-left-radius: 13%;
+    border-bottom-right-radius: 13%;
 }
 
 .addon-tc{
@@ -241,4 +245,24 @@ h1, .quicksand{
     padding-top: 0;
     padding-bottom: 0;
     height: max-content;
+}
+
+.next-button .row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.next-button a{
+    padding: 15px;
+    border: 1px solid #0A6FB5;
+    color: #0A6FB5;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: unset;
+    transition: 0.1s ease-in-out;
+}
+
+.next-button a:hover{
+    background-color: #0A6FB5!important;
+    color: white;
 }

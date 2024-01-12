@@ -1,12 +1,24 @@
 <!-- < ?= component('hero-slider') ?> -->
-<h1 class="text-center p-5 addon-h1">
-    <p style="font-size: 25px;"> &emsp;Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
-</h1>
+<marquee class="text-center quicksand blue" style="font-size: 18px;">
+    <p>Bienvenu à L'institut Lucina 
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
+</marquee>
 <div class="full-width overflow-hidden">
     <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
     <div class="row align-items-center justify-content-center">
         <div class="col-lg-12 p-0 pb-lg-0 ADDON-WHITE-bG">
-            <div class="addon-white-BACKDROP"></div>
+            <div class="addon-white-BACKDROP">
+                <div class="container mt-5">
+                    <div class="row mt-5 justify-content-md-center">
+                        <div class="col-6 mt-5 quicksand">
+                            <p class="quicksand text-center" style="color: white; font-weight: bolder; font-size: 26px;">
+                                CENTRE DE PHOTOBIOMODULATION <br><br> Le soin par la lumière
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <img class="img-fluid w-100 hero-image" <?= img('about.webp') ?>>
         </div>
     </div>
@@ -152,3 +164,11 @@
 <!-- Contact Start -->
 <!-- < ?php component('contact')?> -->
 <!-- Contact End -->
+
+<div class="container-fluid next-button mt-5 pt-5">
+    <div class="row">
+        <div class="col-2">
+            <a href="about">Découvrir » </a>
+        </div>
+    </div>
+</div>

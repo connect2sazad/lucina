@@ -1,12 +1,11 @@
 <!-- < ?= component('appointments') ?> -->
 
 
-<div class="container-fluid py-5">
+<div class="container-fluid py-3">
     <div class="container py-5">
-        <h2 class="mb-5 pb-5 text-center">CONTACT ET PLAN D'ACCES</h2>
         <div class="row">
             <div class="col-lg-8">
-                <h4 class="text-decoration-underline">POUR PRENDRE RENDEZ-VOUS : </h4>
+                <h4 class="blue quicksand">POUR PRENDRE RENDEZ-VOUS : </h4>
                 <p class="my-5">
                     Par téléphone ou directement à l'institut LUCINA sur les heures d'ouverture. <br>
                     Soin visage : entrée libre selon disponibilité, ou sur rendez-vous. <br>
@@ -15,11 +14,11 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <img <?=img('contact.jpeg')?> style="height: 300px; width: 300px">
+                <img <?=img('contact.jpeg')?> style="height: 200px; width: 300px">
             </div>
 
             <div class="col-lg-12">
-                <h4 class="text-decoration-underline mb-3">CONTACT ET PLAN D'ACCES :</h4>
+                <h4 class="blue quicksand mb-3">CONTACT ET PLAN D'ACCES :</h4>
                 <p>
                     <strong>Adresse</strong> : <?= data('address') ?>
                 </p>
@@ -50,7 +49,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-12 mt-2">
+            <div class="col-lg-12 mt-2 bg-light  p-4 p-lg-5 my-lg-5">
                 <p>
                     <strong>En voiture</strong> : <br>
                     Parking le plus proche: parking Indigo Arcades <br>
@@ -63,7 +62,7 @@
 
 <div class="container-fluid">
     <div class="container">
-        <h5 class="mb-3">A l'attention des « non rueillois »</h2>
+        <p class="mb-3"><strong>A l'attention des « non rueillois »</strong></p>
             <div class="row">
                 <div class="col-lg-12">
                     <p class="text-justify">

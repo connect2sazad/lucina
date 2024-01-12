@@ -63,3 +63,11 @@
 <!-- Accordian start -->
 <?=component('accordian-about')?>
 <!-- Accordian end -->
+
+<div class="container-fluid next-button mt-5 pt-5">
+    <div class="row">
+        <div class="col-2">
+            <a href="services">Découvrir » </a>
+        </div>
+    </div>
+</div>

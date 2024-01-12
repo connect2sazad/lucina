@@ -225,7 +225,7 @@ $sportif->addServiceItem($sportif_item3);
     <div class="row">
         <div class="col-4">
             <div class="card p-2 addon-tc" style="background-color: #2F5597; color: white">
-                <p>Soins à la carte (sur demande)</p>
+                <u>Soins à la carte (sur demande)</u>
             </div>
         </div>
     </div>
