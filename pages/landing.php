@@ -1,7 +1,7 @@
 <!-- < ?= component('hero-slider') ?> -->
 <marquee class="text-center quicksand blue" style="font-size: 18px;">
-    <p>Bienvenu à L'institut Lucina 
-        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <p>Bienvenue à L'institut Lucina 
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
         Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
 </marquee>
 <div class="full-width overflow-hidden">
@@ -68,7 +68,7 @@
                 <img <?= img('triple-expertise/te.jpg') ?> class="img-fluid w-100">
             </div>
             <div class="col-lg-6">
-                <h3 class="mb-3 quicksand blue">L'instutit Lucina</h1>
+                <h3 class="mb-3 quicksand blue">L'instut Lucina</h1>
                     <p class="pl-4 border-left border-primary text-justify">
                         L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
                         <br>
@@ -167,7 +167,7 @@
 
 <div class="container-fluid next-button mt-5 pt-5">
     <div class="row">
-        <div class="col-2">
+        <div class="col-3">
             <a href="about">Découvrir » </a>
         </div>
     </div>

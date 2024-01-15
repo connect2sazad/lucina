@@ -66,7 +66,7 @@
 
 <div class="container-fluid next-button mt-5 pt-5">
     <div class="row">
-        <div class="col-2">
+        <div class="col-3">
             <a href="services">Découvrir » </a>
         </div>
     </div>

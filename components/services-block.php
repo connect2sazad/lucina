@@ -192,7 +192,7 @@ $sportif->addServiceItem($sportif_item3);
         <div class="col-4">
             <div class="card p-2" style="background-color: #4472C4; color: white">
                 <div class="plus"><a href="<?=the_site_url()?>services/bien_entre">Découvrir</a></div>
-                <p class="text-center">Bien être :</p>
+                <p class="text-center">Bien-être :</p>
                 <?= $bien_etre->getServices(); ?>
             </div>
         </div>
@@ -217,7 +217,7 @@ $sportif->addServiceItem($sportif_item3);
             <div class="card p-2" style="background-color: #FFE699; color: black">
                 <div class="plus"><a href="<?=the_site_url()?>services/sport_et_competition">Découvrir</a></div>
                 <p class="text-center">Sport et compétition :</p>
-                <?= $sante->getServices(); ?>
+                <?= $sportif->getServices(); ?>
             </div>
         </div>
         <div class="col-4"><img <?=img('s4.jpg')?> style="height: 200px; width: 200px"></div>

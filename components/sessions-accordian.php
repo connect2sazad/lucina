@@ -4,15 +4,15 @@
             <div class="card">
                 <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <h5 class="mb-0">
-                        <button class="btn ">
+                        <button class="btn collapsed">
                             COMMENT CELA FONCTIONNE
                         </button>
                         
-                        <div class="toggleplus">-</div>
+                        <div class="toggleplus">+</div>
                     </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                         <p class="pt-3">
                             Le corps est exposé en entier ou sur une zone ciblée à différentes longueurs d'ondes (couleurs) selon un programme spécifique à chaque indication.

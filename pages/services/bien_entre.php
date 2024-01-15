@@ -14,3 +14,11 @@
         </div>
     </div>
 </div>
+
+<div class="container-fluid next-button mt-5 pt-5">
+    <div class="row">
+        <div class="col-3">
+            <a href="esthetique">Découvrir » </a>
+        </div>
+    </div>
+</div>

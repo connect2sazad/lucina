@@ -4,8 +4,8 @@
 <div class="container-fluid py-3">
     <div class="container py-5">
         <div class="row">
-            <div class="col-lg-8">
-                <h4 class="blue quicksand">POUR PRENDRE RENDEZ-VOUS : </h4>
+            <div class="col-lg-7">
+                <h4 class="blue">POUR PRENDRE RENDEZ-VOUS : </h4>
                 <p class="my-5">
                     Par téléphone ou directement à l'institut LUCINA sur les heures d'ouverture. <br>
                     Soin visage : entrée libre selon disponibilité, ou sur rendez-vous. <br>
@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-lg-12">
-                <h4 class="blue quicksand mb-3">CONTACT ET PLAN D'ACCES :</h4>
+                <h4 class="blue mb-3">CONTACT ET PLAN D'ACCES :</h4>
                 <p>
                     <strong>Adresse</strong> : <?= data('address') ?>
                 </p>

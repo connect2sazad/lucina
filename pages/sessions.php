@@ -60,12 +60,12 @@
                 <!-- <div class="swiper mySwiper">
                     <div class="swiper-wrapper"> -->
                         <div class="swiper-slide">
-                            <p><u>La technique elle-même</u>: son efficacité et son innocuité doivent être attestées par des études cliniques suffisamment nombreuses et fiables. La Photobiomodulation dispose ainsi de plus de 30 ans d'études et de plus de 5000 études scientifiques publiées dans le monde entier.</p>
+                            <p><strong class="blue">La technique elle-même</strong>: son efficacité  doit être attestée par des études cliniques suffisamment nombreuses et fiables. La Photobiomodulation dispose de plus de 30 ans d'études et de plus de 5000 études scientifiques publiées dans le monde.</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
                                 <div class="col-12">
-                                    <p><u>Le matériel</u> : les équipements doivent être de qualité et habilités pour un usage professionnel.</p>
+                                    <p><strong class="blue">Le matériel</strong> : les équipements doivent être de qualité et habilités pour un usage professionnel.</p>
                                 </div>
                                 <div class="col-2">
                                     <img <?= img('sessions2.jpeg') ?> style="height: 300px; width:170px ">
@@ -73,10 +73,10 @@
                                 <div class="col-10">
                                     <div class="row">
                                         <div class="col-12">
-                                            <p>Tous nos équipements sont fabriqués en France, sont équipés de LED de qualité médicale, disposent des certifications requises pour une utilisation professionnelle (les paramètres et les puissances sont différents des </p>
+                                            <p>Tous nos équipements sont fabriqués en France, sont équipés de LED de qualité médicale, et sont certifiés pour une utilisation professionnelle (les paramètres et les puissances sont différents des</p>
                                         </div>
                                         <div class="col-8">
-                                            <p>matériels vendus pour un usage particulier, et font l'objet de contrôles attestant leur conformité). Ils ont été évalués par des études cliniques officielles prouvant leur efficacité.</p>
+                                            <p>matériels vendus pour un usage particulier, et font l'objet de contrôles attestant leur conformité). Ils ont été évalués par des études cliniques officielles prouvant leur efficacité et innocuité.</p>
                                         </div>
                                         <div class="col-4">
                                             <img <?= img('sessions3.jpeg') ?> style="height: 250px; width:320px ">
@@ -86,14 +86,14 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <p><u>Le praticien</u>: la qualité de sa formation et sa capacité à écouter et accompagner.</p>
+                            <p><strong class="blue">Le praticien</strong>: la qualité de sa formation et sa capacité à écouter et accompagner.</p>
                             <p class="my-3">
                                 Votre praticien dispose de formations de référence en Photobiomodulation :
                             </p>
                             <ul>
-                                <li>Formation Photobiomodulation/Mil-thérapie du CERS-TA (Centre de formation en Thérapies Alternatives) </li>
+                                <li>Formation Photobiomodulation et Mil-thérapie du CERS-TA (Centre de formation en Thérapies Alternatives)</li>
                                 <li>Formation LED et Photobiomodulation de l'OFNT (Organisme de Formation aux Nouvelles Technologies) </li>
-                                <li>Suivi du Diplôme Universitaire de Photobiomodulation à la faculté de médecine de l'université de Montpellier à Nîmes, en candidature libre.</li>
+                                <li>Suivi du Diplôme Universitaire de Photobiomodulation à la faculté de médecine de Nîmes, Montpellier, en candidature libre.</li>
                             </ul>
                             <p class="my-3">
                                 Et de deux formations complémentaires permettant de mieux vous accompagner :
@@ -117,7 +117,7 @@
 
 <div class="container-fluid next-button mt-5 pt-5">
     <div class="row">
-        <div class="col-2">
+        <div class="col-3">
             <a href="contact">Découvrir » </a>
         </div>
     </div>

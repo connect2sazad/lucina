@@ -253,13 +253,14 @@ h1, .quicksand{
 }
 
 .next-button a{
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #0A6FB5;
     color: #0A6FB5;
     cursor: pointer;
     text-transform: capitalize;
     text-decoration: unset;
     transition: 0.1s ease-in-out;
+    border-radius: 20px;
 }
 
 .next-button a:hover{

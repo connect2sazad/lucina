@@ -4,16 +4,16 @@
             <div class="card">
                 <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <h5 class="mb-0">
-                        <button class="btn quicksand">
+                        <button class="btn collapsed">
                             UNE TECHNIQUE EXPLOITANT LES EFFETS NATURELS DE LA LUMIERE
                         </button>
-                        <div class="toggleplus">-</div>
+                        <div class="toggleplus">+</div>
                         <!-- <div class="acc-more"><div class="toggleplus">-</div>Pour en savoir plus</div> -->
                         
                     </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                         <p>La Photobiomodulation (PBM) est une technique de soin qui utilise l'énergie et les propriétés naturelles de la lumière, connue pour ses effets régénérants et ressourçants.</p>
                         <p>La lumière agit par photosynthèse sur le corps grâce à des cellules dites chromophores qui captent la lumière et permettent son utilisation selon les besoins de notre organisme.</p>
@@ -25,7 +25,7 @@
             <div class="card">
                 <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <h5 class="mb-0">
-                        <button class="btn  collapsed quicksand">
+                        <button class="btn collapsed">
                             UNE METHODE EPROUVEE ET RECONNUE DE LONGUE DATE
                         </button>
                         
@@ -44,7 +44,7 @@
             <div class="card">
                 <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <h5 class="mb-0">
-                        <button class="btn  collapsed quicksand">
+                        <button class="btn collapsed">
                             DE NOMBREUSES APPLICATIONS
                         </button>
                         <div class="toggleplus">+</div>

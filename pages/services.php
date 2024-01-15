@@ -11,7 +11,7 @@
     </div> -->
 
     <div class="container-fluid px-5">
-        <h4 class="quicksand">LES DIFFÉRENTES INDICATIONS</h4>
+        <h4 class="blue">LES DIFFÉRENTES INDICATIONS</h4>
     </div>
     <?= component('services-block') ?>
 
@@ -30,7 +30,7 @@
 
 <div class="container-fluid next-button mt-5 pt-5">
     <div class="row">
-        <div class="col-2">
+        <div class="col-3">
             <a href="sessions">Découvrir » </a>
         </div>
     </div>

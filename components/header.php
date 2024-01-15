@@ -37,14 +37,14 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5 flex-column">
         <a href="<?= the_site_url() ?>" class="navbar-brand ml-lg-3 d-flex position-relative">
             <img style="height: 50px; width: auto;" <?= img('favicon.jpg') ?>>
-            <h1 class="m-0 text-primary" style="font-size: 38px;;"><span class="text-dark"><?= data('project') ?></span></h1>
+            <h1 class="m-0 text-primary" style="font-size: 36px;"><span class="text-dark"><?= data('project') ?></span></h1>
             <span style="position: absolute; bottom: -5px; right: 0; font-size: 12.5px;"><?= data('tagline') ?></span>
         </a>
         <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
+            <div class="navbar-nav m-auto py-0 quicksand">
                 <!-- <a href="< ?=the_site_url()?>" data-menu="landing" class="nav-item nav-link active">Maison</a> -->
                 <!-- <a href="< ?=the_site_url()?>about" data-menu="about" class="nav-item nav-link">À propos</a> -->
                 <!-- <a href="< ?=the_site_url()?>services" data-menu="services" class="nav-item nav-link">La Carte</a> -->
