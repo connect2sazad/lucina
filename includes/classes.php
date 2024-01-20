@@ -53,7 +53,7 @@ class ServicesCard
             // $html .= '<div class="col-md-3 mb-4">';
             // $html .= '<div class="card">';
             // $html .= '<div class="card-header">';
-            $html .= '- '.$serviceItem->title."<br>";
+            $html .= ''.$serviceItem->title."<br>";
             // $html .= '</div>';
             // $html .= '<div class="card-body">';
             // $html .= '<h5 class="card-title"> </h5>';
@@ -63,6 +63,8 @@ class ServicesCard
             // $html .= '</div>';
             // $html .= '</div>';
         }
+        $html .= "<br>";
+        $html .= "<br>";
         return $html;
     }
 }

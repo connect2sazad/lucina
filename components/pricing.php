@@ -40,7 +40,27 @@
     </table>
   </div>
 </div> -->
-<div style="display: flex; width:100%;justify-content:center;">
+<style>
+  .img{
+    display: flex; width:100%;justify-content:center;
+  }
+  @media only screen and (max-width: 430px){
+    .img{
+      height: 370px;
+    }
+  }
+  @media only screen and (max-width: 414px){
+    .img{
+      height: 370px;
+    }
+  }
+  @media only screen and (max-width: 375px){
+    .img{
+      height: 360px;
+    }
+  }
+</style>
+<div class="img">
   
   <img <?=img('tarrifs.png')?>>
 </div>

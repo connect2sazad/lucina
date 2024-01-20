@@ -52,23 +52,23 @@ $sante_item3->title = 'Gestion de la douleur';
 $sante_item3->desc = 'Ma pause détox, suggérant un moment dédié à la purification et au bien-être intérieur.';
 
 $sante_item4 = new ServiceItem();
-$sante_item4->title = 'Soutien au sevrage tabagique';
+$sante_item4->title = 'Luminothérapie : fatigue, dépression saisonnière';
 $sante_item4->desc = 'Ma pause anti-déprime, suggérant un moment dédié à la lutte contre le blues et au bien-être mental.';
 
-$sante_item5 = new ServiceItem();
-$sante_item5->title = 'Luminothérapie dépression';
-$sante_item5->desc = 'Ma pause fortifiante, suggérant un moment dédié au renforcement immunitaire et au bien-être global.';
+// $sante_item5 = new ServiceItem();
+// $sante_item5->title = 'Luminothérapie dépression';
+// $sante_item5->desc = 'Ma pause fortifiante, suggérant un moment dédié au renforcement immunitaire et au bien-être global.';
 
-$sante_item6 = new ServiceItem();
-$sante_item6->title = 'Solution jambes lourdes';
-$sante_item6->desc = 'Ma pause fortifiante, suggérant un moment dédié au renforcement immunitaire et au bien-être global.';
+// $sante_item6 = new ServiceItem();
+// $sante_item6->title = 'Solution jambes lourdes';
+// $sante_item6->desc = 'Ma pause fortifiante, suggérant un moment dédié au renforcement immunitaire et au bien-être global.';
 
 $sante->addServiceItem($sante_item1);
 $sante->addServiceItem($sante_item2);
 $sante->addServiceItem($sante_item3);
 $sante->addServiceItem($sante_item4);
-$sante->addServiceItem($sante_item5);
-$sante->addServiceItem($sante_item6);
+// $sante->addServiceItem($sante_item5);
+// $sante->addServiceItem($sante_item6);
 /***************************Santé***************************************************************************** */
 
 
@@ -76,15 +76,15 @@ $sante->addServiceItem($sante_item6);
 $esthetique = new ServicesCard;
 
 $esthetique_item1 = new ServiceItem();
-$esthetique_item1->title = 'Visage (anti-rides, éclat, fermeté, acné, couperose).';
+$esthetique_item1->title = 'Visage (anti-rides, fermeté, hydratant, acné, rééquilibrant)';
 $esthetique_item1->desc = 'Ma pause détente évoque un moment de détente et de relaxation.';
 
 $esthetique_item2 = new ServiceItem();
-$esthetique_item2->title = 'Cheveux (soin densificateur, réduction de l’alopécie)';
+$esthetique_item2->title = 'Cheveux (soin densificateur, alopécie, équilibrant)';
 $esthetique_item2->desc = 'Ma pause forme suggérant un moment dédié à la forme physique et au bien-être.';
 
 $esthetique_item3 = new ServiceItem();
-$esthetique_item3->title = 'Corps entier (minceur, fermeté, anti-âge)';
+$esthetique_item3->title = 'Corps entier (anti-âge, fermeté, minceur)';
 $esthetique_item3->desc = 'Ma pause détox, suggérant un moment dédié à la purification et au bien-être intérieur.';
 
 $esthetique->addServiceItem($esthetique_item1);
@@ -105,7 +105,7 @@ $sportif_item2->title = 'Récupération sportive';
 $sportif_item2->desc = 'Ma pause forme suggérant un moment dédié à la forme physique et au bien-être.';
 
 $sportif_item3 = new ServiceItem();
-$sportif_item3->title = 'Suivi sportif';
+$sportif_item3->title = 'Suivi sportif (courbatures, douleurs, traumas)';
 $sportif_item3->desc = 'Ma pause détox, suggérant un moment dédié à la purification et au bien-être intérieur.';
 
 $sportif->addServiceItem($sportif_item1);
@@ -174,58 +174,65 @@ $sportif->addServiceItem($sportif_item3);
         margin-bottom: 50px!important;
         margin-top: 50px!important;
     }
+    .font-weight-bold{
+        margin-bottom: 5px;
+    }
+    .row .col-4 img{
+        margin-top: 45px;
+    }
 </style>
 
 <div class="container mt-4" id="KNjnsk">
     <div class="row mb-4">
         <div class="col-2"></div>
         <div class="col-6">
-            <div class="card p-2" style="background-color: #F4B183; color: black">
-                <p class="text-center">Esthétique (visage et corps entier) :</p>
+            <div class="card p-2 text-center" style="background-color: #F4B183; color: black">
+                <div class="text-center font-weight-bold">Esthétique (visage et corps entier) :</div>
                 <?= $esthetique->getServices(); ?>
                 <div class="plus"><a href="<?=the_site_url()?>services/esthetique">Découvrir</a></div>
             </div>
         </div>
-        <div class="col-4"><img <?=img('s1.jpg')?> style="height: 200px; width: 200px"></div>
+        <div class="col-4"><img <?=img('s1.jpg')?> style="height: 200px; width: 200px; margin-top: 30px;"></div>
     </div>
-    <div class="row mb-4">
+    <div class="row mb-5">
         <div class="col-4">
-            <div class="card p-2" style="background-color: #4472C4; color: white">
+            <div class="card p-2  text-center" style="background-color: #4472C4; color: white">
                 <div class="plus"><a href="<?=the_site_url()?>services/bien_entre">Découvrir</a></div>
-                <p class="text-center">Bien-être :</p>
+                <div class="text-center font-weight-bold">Bien-être :</div>
                 <?= $bien_etre->getServices(); ?>
             </div>
         </div>
         <div class="col-4"><img <?=img('s2.jpg')?> style="height: 200px; width: 200px"></div>
         <div class="col-4"></div>
     </div>
-    <div class="row mb-4">
+    <div class="row mb-5 mt-5 pt-5">
         <div class="col-2"></div>
         <div class="col-4">
-            <div class="card p-2" style="background-color: #A9D18E; color: black">
+            <div class="card p-2  text-center" style="background-color: #A9D18E; color: black">
                 <div class="plus"><a href="<?=the_site_url()?>services/sante">Découvrir</a></div>
-                <p class="text-center">Santé :</p>
+                <div class="text-center font-weight-bold">Santé :</div>
                 <?= $sante->getServices(); ?>
             </div>
         </div>
-        <div class="col-4"><img <?=img('s3.jpg')?> style="height: 200px; width: 200px"></div>
+        <div class="col-4"><img <?=img('s3.jpg')?> style="height: 200px; width: 200px;"></div>
         <div class="col-2"></div>
     </div>
-    <div class="row mb-4">
+    <div class="row mb-4 mt-2 pt-5">
         <div class="col-4"></div>
         <div class="col-4">
             <div class="card p-2" style="background-color: #FFE699; color: black">
                 <div class="plus"><a href="<?=the_site_url()?>services/sport_et_competition">Découvrir</a></div>
-                <p class="text-center">Sport et compétition :</p>
+                <div class="font-weight-bold text-center">Sport et compétition :</div>
                 <?= $sportif->getServices(); ?>
             </div>
         </div>
-        <div class="col-4"><img <?=img('s4.jpg')?> style="height: 200px; width: 200px"></div>
+        <div class="col-4"><img <?=img('s4.jpg')?> style="height: 200px; width: 200px;"></div>
     </div>
     <div class="row">
+        <div class="col-1"></div>
         <div class="col-4">
             <div class="card p-2 addon-tc" style="background-color: #2F5597; color: white">
-                <u>Soins à la carte (sur demande)</u>
+                <p><strong> Soins à la carte </strong> (sur demande)</p>
             </div>
         </div>
     </div>

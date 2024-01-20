@@ -1,18 +1,25 @@
 <!-- < ?= component('hero-slider') ?> -->
+<style>
+    marquee p{
+       padding: 0;
+       margin: 0;
+    }
+</style>
+
 <marquee class="text-center quicksand blue" style="font-size: 18px;">
     <p>Bienvenue à L'institut Lucina 
-        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
         Votre centre ALPHA CARE évolue et devient LUCINA, votre nouveau centre Santé & Bien-être ouvre ses portes en plein cœur du centre-ville à Rueil Malmaison</p>
 </marquee>
-<div class="full-width overflow-hidden">
+<div class="container-fluid full-width overflow-hidden">
     <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
     <div class="row align-items-center justify-content-center">
-        <div class="col-lg-12 p-0 pb-lg-0 ADDON-WHITE-bG">
+        <div class="col-lg-12 col-xs-12 col-sm-12  p-0 pb-lg-0 ADDON-WHITE-bG">
             <div class="addon-white-BACKDROP">
                 <div class="container mt-5">
                     <div class="row mt-5 justify-content-md-center">
-                        <div class="col-6 mt-5 quicksand">
-                            <p class="quicksand text-center" style="color: white; font-weight: bolder; font-size: 26px;">
+                        <div class="col-12 col-sm-12 col-xs-12 mt-5 quicksand">
+                            <p class="quicksand text-center sm-banner-texts" style="color: white; font-weight: bolder; font-size: 26px;">
                                 CENTRE DE PHOTOBIOMODULATION <br><br> Le soin par la lumière
                             </p>
                         </div>
@@ -59,18 +66,18 @@
         </div>
     </div>
 </div> -->
-<div class="container-fluid py-5">
-    <div class="container py-5">
+<div class="container-fluid py-5 pt-sm-3 responsive-padding">
+    <div class="container py-5 responsive-padding">
         <!-- <h1 class="mb-3">LUCINA : VOTRE CENTRE DE PHOTOBIOMODULATION</h1> -->
         <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">LE SOIN PAR LA LUMIERE </h6> -->
-        <div class="row align-items-center">
-            <div class="col-lg-6 pb-5 pb-lg-0">
-                <img <?= img('triple-expertise/te.jpg') ?> class="img-fluid w-100">
+        <div class="row align-items-center justify-content-center upside-down">
+            <div class="col-lg-4 mr-2 pb-5 pb-lg-0">
+                <img style=" margin-top: 1.5rem;" <?= img('triple-expertise/te.jpg') ?> class="img-fluid w-100">
             </div>
             <div class="col-lg-6">
-                <h3 class="mb-3 quicksand blue">L'instut Lucina</h1>
+                <h3 class="mb-3 quicksand blue"><span style="font-weight: bold;"> L'institut Lucina</span></h1>
                     <p class="pl-4 border-left border-primary text-justify">
-                        L'Institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
+                        L'institut Lucina vous accueille aux portes de Paris, à Rueil Malmaison.
                         <br>
                         Spécialisé en Photobiomodulation, il fait partie des premiers centres en France proposant cette technique de soin, utilisant les propriétés naturelles et régénérantes de la lumière.
                         <br><br>
@@ -165,7 +172,7 @@
 <!-- < ?php component('contact')?> -->
 <!-- Contact End -->
 
-<div class="container-fluid next-button mt-5 pt-5">
+<div class="container-fluid next-button mt-5">
     <div class="row">
         <div class="col-3">
             <a href="about">Découvrir » </a>
